@@ -31,6 +31,7 @@
                 :data-lat="point.lat"
                 :data-lon="point.lon"
                 opacity="0.2"
+                @click="inspect(point)"
             />
 
             <path
@@ -71,6 +72,8 @@
 
     import * as d3 from 'd3'
     import turf from '@turf/turf'
+    import _ from 'lodash'
+
     import countries from './countries.json'
     import rawAirports from './airports.json'
     export default {
@@ -87,7 +90,7 @@
             routes: [],
             airport1: '',
             airport2: '',
-            point: {}
+            point: ''
         }),
         computed: {
             height() {
@@ -97,10 +100,10 @@
                 return rawAirports.filter(airport => {
                     return airport.hasOwnProperty('lat');
                 })
-            }
+            },
         },
         methods: {
-            getPoint(point) {
+            inspect(point) {
                 this.point = point
             },
             getAirport(code) {
@@ -134,7 +137,7 @@
                     (value)
             },
             getPoint: function(lat, lon) {
-                var point = false
+                var point = []
                 countries.features.forEach(function(country) {
                     if (country.geometry.type === 'Polygon' &&
                         turf.inside(
@@ -142,7 +145,7 @@
                             turf.polygon(country.geometry.coordinates)
                         )
                     ) { 
-                        point = true
+                        point.push(country.id)
                     }
                     if (country.geometry.type === 'MultiPolygon') {
                         country.geometry.coordinates.forEach(function(polygon) {
@@ -150,7 +153,7 @@
                                 turf.point([lon, lat]),
                                 turf.polygon(polygon))
                             ) {
-                                point = true
+                                point.push(country.id)
                             }
                         })
                     }
@@ -162,9 +165,10 @@
         mounted() {
             for (var lat = this.latMin; lat > this.latMax; lat -= this.step) {
                 for (var lon = this.lonMin; lon < this.lonMax; lon += this.step) {
-                    if (this.getPoint(lat, lon)) {
+                    var point = this.getPoint(lat, lon)
+                    if (point && point.length > 0) {
                         this.points.push({
-                            lat, lon
+                            lat, lon, countryId: point
                         })
                     }
                 }

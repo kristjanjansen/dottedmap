@@ -8,6 +8,7 @@
   "dependencies": {
     "@turf/turf": "^3.9.0",
     "d3": "^4.5.0",
+    "lodash": "^4.17.4",
     "vue": "^2.1.0",
     "vue-resource": "^1.2.0"
   },

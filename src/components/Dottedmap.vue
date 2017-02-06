@@ -20,26 +20,16 @@
             </div>
         </div>
 
-        <div>
-        <span
-            v-for="country in countries"
-            @click="activeCountryId = country.id"
-        >
-            {{ country.name }}
-        </span>
-        </div>
-
         <svg :width="width" :height="height">
 
             <circle
                 v-for="point in points"
                 :cx="lonScale(point.lon)"
                 :cy="latScale(point.lat)"
-                r="3"
-                :fill="point.id == activeCountryId ? 'red' : 'black'"
+                :r="radius"
+                :fill="point.id == activeCountryId ? 'yellow' : 'rgba(0,0,0,0.5)'"
                 :data-lat="point.lat"
                 :data-lon="point.lon"
-                opacity="0.5"
             />
 
             <path
@@ -57,7 +47,7 @@
             <circle
                 :cx="lonScale(getAirport(airport1).lon)"
                 :cy="latScale(getAirport(airport1).lat)"
-                r="3"
+                :r="radius"
                 fill="white"
                 :data-lat="point.lat"
                 :data-lon="point.lon"
@@ -66,11 +56,21 @@
             <circle
                 :cx="lonScale(getAirport(airport2).lon)"
                 :cy="latScale(getAirport(airport2).lat)"
-                r="3"
+                :r="radius"
                 fill="white"
             />
 
         </svg>
+
+        <div>
+        <div
+            v-for="country in countries"
+            @click="activeCountryId = country.id"
+        >
+            {{ country.name }} ({{ country.count }} dots)
+
+        </div>
+        </div>
 
     </div>
 
@@ -103,6 +103,9 @@
             activeCountryId: ''
         }),
         computed: {
+            radius() {
+                return this.width / 190
+            },
             height() {
                 return this.width
             },
@@ -113,7 +116,11 @@
             },
             countries() {
                 return _.uniqBy(rawCountries.features, 'id').map(country => {
-                    return {id: country.id, name: country.properties.name }
+                    return {
+                        id: country.id,
+                        name: country.properties.name,
+                        count: this.points.filter(point => point.id === country.id).length
+                    }
                 })
             }
         },
@@ -180,7 +187,7 @@
                     var point = this.getPoint(lat, lon)
                     if (point && point.length > 0) {
                         this.points.push({
-                            lat, lon, id: point
+                            lat, lon, id: point[0]
                         })
                     }
                 }

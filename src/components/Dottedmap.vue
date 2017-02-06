@@ -1,6 +1,24 @@
 <template>
     
     <div>
+        <div style="display:flex">
+            <div style="flex:1">
+                <input v-model="airport1">
+                <div>
+                </div>
+            </div>
+            <div style="flex:1">
+                <input v-model="airport2">
+                <div>
+                </div>
+            </div>
+            <div style="flex:1">
+                <button @click="randomAirports">Random</button>
+            </div>
+            <div style="flex:1">
+                {{ point }}
+            </div>
+        </div>
 
         <svg :width="width" :height="height">
 
@@ -9,7 +27,38 @@
                 :cx="lonScale(point.lon)"
                 :cy="latScale(point.lat)"
                 r="3"
-                fill="gray"
+                fill="black"
+                :data-lat="point.lat"
+                :data-lon="point.lon"
+                opacity="0.2"
+            />
+
+            <path
+                :d="arc(
+                    lonScale(getAirport(airport1).lon),
+                    latScale(getAirport(airport1).lat),
+                    lonScale(getAirport(airport2).lon),
+                    latScale(getAirport(airport2).lat)
+                )"
+                stroke="white"
+                fill="none"
+                stroke-width="2"
+            />
+
+            <circle
+                :cx="lonScale(getAirport(airport1).lon)"
+                :cy="latScale(getAirport(airport1).lat)"
+                r="3"
+                fill="white"
+                :data-lat="point.lat"
+                :data-lon="point.lon"
+            />
+
+            <circle
+                :cx="lonScale(getAirport(airport2).lon)"
+                :cy="latScale(getAirport(airport2).lat)"
+                r="3"
+                fill="white"
             />
 
         </svg>
@@ -23,34 +72,65 @@
     import * as d3 from 'd3'
     import turf from '@turf/turf'
     import countries from './countries.json'
+    import rawAirports from './airports.json'
     export default {
         props: {
             width: { default: 500 }
         },
         data: () => ({
             step: 5,
-            latMin: -180,
-            latMax: 180,
+            latMin: 180,
+            latMax: -180,
             lonMin: -180,
             lonMax: 180,
-            points: []
+            points: [],
+            routes: [],
+            airport1: '',
+            airport2: '',
+            point: {}
         }),
         computed: {
             height() {
                 return this.width
+            },
+            airports() {
+                return rawAirports.filter(airport => {
+                    return airport.hasOwnProperty('lat');
+                })
             }
         },
         methods: {
+            getPoint(point) {
+                this.point = point
+            },
+            getAirport(code) {
+                var airport = this.airports.find(airport => airport.iata === code)
+                return airport ? airport : {lat: 0, lng: 0}
+            },
+            randomAirports() {
+                var index1 = Math.floor(Math.random() * this.airports.length)
+                var index2 = Math.floor(Math.random() * this.airports.length)
+                this.airport1 = this.airports[index1].iata
+                this.airport2 = this.airports[index2].iata
+            },
+            arc(x1, y1, x2, y2) {
+                var dx = x2 - x1
+                var dy = y2 - y1
+                var dr = Math.sqrt(dx * dx + dy * dy)
+                
+                return "M" + x1 + "," + y1 + "A" + dr + "," + dr +
+                " 0 0,1 " + x2 + "," + y2
+            },
             latScale(value) {
                 return d3.scaleLinear()
                     .domain([this.latMin, this.latMax])
-                    .range([this.width - 10, 10])
+                    .range([10, this.height - 10])
                     (value)
             },
             lonScale(value) {
                 return d3.scaleLinear()
                     .domain([this.lonMin, this.lonMax])
-                    .range([10, this.height - 10])
+                    .range([10, this.width - 10])
                     (value)
             },
             getPoint: function(lat, lon) {
@@ -80,7 +160,7 @@
 
         },
         mounted() {
-            for (var lat = this.latMin; lat < this.latMax; lat += this.step) {
+            for (var lat = this.latMin; lat > this.latMax; lat -= this.step) {
                 for (var lon = this.lonMin; lon < this.lonMax; lon += this.step) {
                     if (this.getPoint(lat, lon)) {
                         this.points.push({
@@ -89,6 +169,8 @@
                     }
                 }
             }
+            this.airport1 = 'TLL'
+            this.airport2    = 'RGN'
         }
     }
 

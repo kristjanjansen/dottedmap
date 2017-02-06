@@ -20,6 +20,15 @@
             </div>
         </div>
 
+        <div>
+        <span
+            v-for="country in countries"
+            @click="activeCountryId = country.id"
+        >
+            {{ country.name }}
+        </span>
+        </div>
+
         <svg :width="width" :height="height">
 
             <circle
@@ -27,11 +36,10 @@
                 :cx="lonScale(point.lon)"
                 :cy="latScale(point.lat)"
                 r="3"
-                fill="black"
+                :fill="point.id == activeCountryId ? 'red' : 'black'"
                 :data-lat="point.lat"
                 :data-lon="point.lon"
-                opacity="0.2"
-                @click="inspect(point)"
+                opacity="0.5"
             />
 
             <path
@@ -74,8 +82,9 @@
     import turf from '@turf/turf'
     import _ from 'lodash'
 
-    import countries from './countries.json'
+    import rawCountries from './countries.json'
     import rawAirports from './airports.json'
+
     export default {
         props: {
             width: { default: 500 }
@@ -90,7 +99,8 @@
             routes: [],
             airport1: '',
             airport2: '',
-            point: ''
+            point: '',
+            activeCountryId: ''
         }),
         computed: {
             height() {
@@ -101,11 +111,13 @@
                     return airport.hasOwnProperty('lat');
                 })
             },
+            countries() {
+                return _.uniqBy(rawCountries.features, 'id').map(country => {
+                    return {id: country.id, name: country.properties.name }
+                })
+            }
         },
         methods: {
-            inspect(point) {
-                this.point = point
-            },
             getAirport(code) {
                 var airport = this.airports.find(airport => airport.iata === code)
                 return airport ? airport : {lat: 0, lng: 0}
@@ -138,7 +150,7 @@
             },
             getPoint: function(lat, lon) {
                 var point = []
-                countries.features.forEach(function(country) {
+                rawCountries.features.forEach(function(country) {
                     if (country.geometry.type === 'Polygon' &&
                         turf.inside(
                             turf.point([lon, lat]),
@@ -168,7 +180,7 @@
                     var point = this.getPoint(lat, lon)
                     if (point && point.length > 0) {
                         this.points.push({
-                            lat, lon, countryId: point
+                            lat, lon, id: point
                         })
                     }
                 }

@@ -1,7 +1,7 @@
 <template>
 
     <div id="app">
-        <input type="range" v-model="width" max="1600">
+        <p>Map size: <input type="range" v-model="width" max="1600"> {{ width }}px</p>
         <dottedmap :width="width"></dottedmap>
     </div>
 

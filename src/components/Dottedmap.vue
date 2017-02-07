@@ -20,6 +20,8 @@
             </div>
         </div>
 
+        <p>Step: <input type="range" v-model="step" > {{ step }}</p>
+
         <svg :width="width" :height="height">
 
             <circle
@@ -90,7 +92,7 @@
             width: { default: 500 }
         },
         data: () => ({
-            step: 5,
+            step: 3,
             latMin: 180,
             latMax: -180,
             lonMin: -180,
@@ -104,7 +106,7 @@
         }),
         computed: {
             radius() {
-                return this.width / 190
+                return ((this.width / 360) / this.step) * 3.5
             },
             height() {
                 return this.width

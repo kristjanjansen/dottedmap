@@ -20,8 +20,6 @@
             </div>
         </div>
 
-        <p>Step: <input type="range" v-model="step" > {{ step }}</p>
-
         <svg :width="width" :height="height">
 
             <circle
@@ -66,12 +64,13 @@
 
         <div>
         <div
+            style="font-size: 11px; margin-bottom: 2px;"
             v-for="country in countries"
             @click="activeCountryId = country.id"
         >
             {{ country.name }} ({{ country.count }} dots)
 
-        </div>
+        </p>
         </div>
 
     </div>
@@ -89,10 +88,10 @@
 
     export default {
         props: {
-            width: { default: 500 }
+            width: { default: 0 }
         },
         data: () => ({
-            step: 3,
+            step: 2.5,
             latMin: 180,
             latMax: -180,
             lonMin: -180,
@@ -106,7 +105,7 @@
         }),
         computed: {
             radius() {
-                return ((this.width / 360) / this.step) * 3.5
+                return ((this.width / 360) / this.step) * 2.5
             },
             height() {
                 return this.width
@@ -117,13 +116,13 @@
                 })
             },
             countries() {
-                return _.uniqBy(rawCountries.features, 'id').map(country => {
+                return _.orderBy(_.uniqBy(rawCountries.features, 'id').map(country => {
                     return {
                         id: country.id,
                         name: country.properties.name,
                         count: this.points.filter(point => point.id === country.id).length
                     }
-                })
+                }), ['count'], ['desc'])
             }
         },
         methods: {

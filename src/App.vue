@@ -14,7 +14,7 @@
     export default {
         name: 'App',
         components: { Dottedmap },
-        data: () => ({ width: 500 })
+        data: () => ({ width: 700 })
     }
 
 </script>

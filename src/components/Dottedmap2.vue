@@ -93,7 +93,7 @@
         }),
         computed: {
             radius() {
-                return this.width / 300
+                return this.width / 350
             },
             height() {
                 return this.width

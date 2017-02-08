@@ -34,11 +34,11 @@
 <script>
 
     import * as d3 from 'd3'
-    import turf from '@turf/turf'
-    import _ from 'lodash'
+    //import turf from '@turf/turf'
+    //import _ from 'lodash'
 
-    import rawCountries from './countries.json'
-    import rawAirports from './airports.json'
+    //import rawCountries from './countries.json'
+    //import rawAirports from './airports.json'
 
     export default {
         props: {
@@ -52,13 +52,15 @@
             latMax: -180,
             lonMin: -180,
             lonMax: 180,
+            airports: []
         }),
         computed: {
-            airports() {
+            /*airports() {
                 return rawAirports.filter(airport => {
                     return airport.hasOwnProperty('lat');
                 })
             },
+            */
             height() {
                 return this.width
             },
@@ -95,7 +97,11 @@
 
         },
         mounted() {
-            console.debug()
+            this.$http.get('./data/airports.json').then(res =>
+                this.airports = res.body.filter(airport => {
+                    return airport.hasOwnProperty('lat');
+                })
+            )
         }
 
     }

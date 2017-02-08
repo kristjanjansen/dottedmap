@@ -197,28 +197,14 @@
             this.airport1 = 'TLL'
             this.airport2    = 'RGN'
 
-            /*
-            var pt = {
-                "type": "Feature",
-                "properties": {},
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": [34, 66]
-                }
-            }
-            
-            console.log(
-                turf.intersect(
-                        turf.polygon(turf.buffer(
-                            turf.point([lon, lat]),
-                            10, 'degrees'
-                        ).geometry.coordinates),
-                        turf.polygon(
-                            rawCountries.features[0].geometry.coordinates
-                        )
-                    )
-            )
-            */
+            var t = turf.polygon([[
+                [0,0],
+                [0,1],
+                [1,1],
+                [1,0]
+            ]])
+
+            console.log(t)
 
         }
     }

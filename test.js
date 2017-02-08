@@ -9,7 +9,7 @@ var countries = require('./src/components/countries.json')
 
 var lat = 0
 var lon = 0
-var step = 3
+var step = 2.5
 var halfStep = step / 2
 
 var features = []

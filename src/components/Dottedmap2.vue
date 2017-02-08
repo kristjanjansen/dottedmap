@@ -2,10 +2,13 @@
     
     <div style="display: flex">
         
-
         <div>
             <div v-for="country in countries"
                 @click="activeCountry = country"
+                :style="{
+                    background: (activeCountry === country) ? 'rgba(0,0,0,0.25)' : 'none',
+                    padding: '0.25rem'
+                }"
             >
                 {{ country }}
             </div>
@@ -21,6 +24,13 @@
                 :fill="isActive(point.properties.countries) ? 'white' : 'rgba(0,0,0,0.5)'"
             />
 
+            <route
+                source="TLL"
+                target="LAX"
+                :width="width"
+                :radius="radius"
+            ></route>
+
         </svg>
 
     </div>
@@ -34,7 +44,10 @@
 
     import points from './points.json'
 
+    import Route from './Route.vue'
+
     export default {
+        components: { Route },
         props: {
             width: { default: 0 }
         },
@@ -48,7 +61,7 @@
         }),
         computed: {
             radius() {
-                return this.width / 250
+                return this.width / 300
             },
             height() {
                 return this.width

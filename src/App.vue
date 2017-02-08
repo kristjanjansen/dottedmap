@@ -2,18 +2,18 @@
 
     <div id="app">
         <p>Map size: <input type="range" v-model="width" max="1600"> {{ width }}px</p>
-        <dottedmap :width="width"></dottedmap>
+        <dottedmap2 :width="width"></dottedmap2>
     </div>
 
 </template>
 
 <script>
 
-    import Dottedmap from './components/Dottedmap.vue'
+    import Dottedmap2 from './components/Dottedmap2.vue'
 
     export default {
         name: 'App',
-        components: { Dottedmap },
+        components: { Dottedmap2 },
         data: () => ({ width: 700 })
     }
 

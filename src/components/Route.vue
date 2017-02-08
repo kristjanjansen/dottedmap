@@ -1,6 +1,6 @@
 <template>
     
-    <g>
+    <g v-if="this.getAirport(this.source).lat !== 0 && this.getAirport(this.source).lon !== 0">
             <path
                 :d="arc(
                     lonScale(getAirport(source).lon),
@@ -66,7 +66,7 @@
         methods: {
             getAirport(code) {
                 var airport = this.airports.find(airport => airport.iata === code)
-                return airport ? airport : {lat: 0, lon: 0}
+                return airport ? airport : { lat: 0, lon: 0 }
             },
             arc(x1, y1, x2, y2) {
                 if (x1 >= x2) {
@@ -94,6 +94,9 @@
             },
 
         },
+        mounted() {
+            console.debug()
+        }
 
     }
 

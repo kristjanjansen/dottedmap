@@ -1,7 +1,9 @@
 <template>
 
     <div id="app">
-        <p>Map size: <input type="range" v-model="width" max="1600"> {{ width }}px</p>
+        <h2>Dottedmap2</h2>
+        <h4>Width</h4>
+        <input type="range" v-model="width" max="1600"> {{ width }}px
         <dottedmap2 :width="width"></dottedmap2>
     </div>
 
@@ -27,5 +29,6 @@
         padding: 2rem;
         background: orange;
     }
+    h4 { margin: 0.5rem 0; }
 
 </style>

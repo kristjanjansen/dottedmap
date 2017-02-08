@@ -1,12 +1,27 @@
 <template>
     
+    <div>
+        <h4>Airport routes</h4>
+
+        <div style="display: flex; margin-bottom: 0.5rem;">
+            <input v-model="source1" size="4">&nbsp;
+            <input v-model="target1" size="4">
+        </div>
+
+        <div style="display: flex; margin-bottom: 0.5rem;">
+            <input v-model="source2" size="4">&nbsp;
+            <input v-model="target2" size="4">
+        </div>
+
+        <h4>Countries</h4>
+
     <div style="display: flex">
-        
+
         <div>
             <div v-for="country in countries"
                 @click="activeCountry = country"
                 :style="{
-                    background: (activeCountry === country) ? 'rgba(0,0,0,0.25)' : 'none',
+                    background: (activeCountry === country) ? 'rgba(255,255,255,0.7)' : 'none',
                     padding: '0.25rem'
                 }"
             >
@@ -14,24 +29,37 @@
             </div>
         </div>
 
-        <svg :width="width" :height="height">
+        <svg :width="width" :height="height" style="margin-top: -200px">
+
+            <g :transform="'translate(0,' + (height / 4) * -1 + ')'">
 
             <circle
                 v-for="point in points.features"
                 :cx="lonScale(point.geometry.coordinates[0])"
                 :cy="latScale(point.geometry.coordinates[1])"
                 :r="radius"
-                :fill="isActive(point.properties.countries) ? 'white' : 'rgba(0,0,0,0.5)'"
+                :fill="isActive(point.properties.countries) ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.5)'"
             />
 
             <route
-                source="TLL"
-                target="LAX"
+                :source="source1"
+                :target="target1"
                 :width="width"
-                :radius="radius"
+                :radius="radius * 1.2"
             ></route>
 
+            <route
+                :source="source2"
+                :target="target2"
+                :width="width"
+                :radius="radius * 1.2"
+            ></route>
+
+            </g>
+
         </svg>
+
+    </div>
 
     </div>
 
@@ -58,6 +86,10 @@
             latMax: -180,
             lonMin: -180,
             lonMax: 180,
+            source1: 'TLL',
+            target1: 'CPH',
+            source2: 'CPH',
+            target2: 'RGN'
         }),
         computed: {
             radius() {
@@ -93,9 +125,6 @@
             isActive(countries) {
                 return countries.find(country => country === this.activeCountry)
             }
-
-        },
-        mounted() {
 
         }
     }

@@ -1,39 +1,33 @@
 <template>
     
     <g v-if="sourcex !== 0 && targetx !== 0">
-            <path
-                :d="arc(sourcex, sourcey, targetx, targety)"
-                stroke="white"
-                fill="none"
-                stroke-width="2"
-            />
+            
+        <path
+            :d="arc(sourcex, sourcey, targetx, targety)"
+            stroke="white"
+            fill="none"
+            stroke-width="2"
+        />
 
-            <circle
-                :cx="sourcex"
-                :cy="sourcey"
-                :r="radius"
-                fill="white"
-            />
+        <circle
+            :cx="sourcex"
+            :cy="sourcey"
+            :r="radius"
+            fill="white"
+        />
 
-            <circle
-                :cx="targetx"
-                :cy="targety"
-                :r="radius"
-                fill="white"
-            />
+        <circle
+            :cx="targetx"
+            :cy="targety"
+            :r="radius"
+            fill="white"
+        />
 
     </g>
 
 </template>
 
 <script>
-
-   //import * as d3 from 'd3'
-    //import turf from '@turf/turf'
-    //import _ from 'lodash'
-
-    //import rawCountries from './countries.json'
-    //import rawAirports from './airports.json'
 
     export default {
         props: {
@@ -43,31 +37,14 @@
             targety: { default: '' },
             radius: { default: 5 },
         },
-        /*data: () => ({
-            latMin: 180,
-            latMax: -180,
-            lonMin: -180,
-            lonMax: 180,
-            airports: []
-        }),*/
-        computed: {
-            /*airports() {
-                return rawAirports.filter(airport => {
-                    return airport.hasOwnProperty('lat');
-                })
-            },
-            
-            height() {
-                return this.width
-            },*/
-        },
         methods: {
-            /*getAirport(code) {
-                var airport = this.airports.find(airport => airport.iata === code)
-                return airport ? airport : { lat: 0, lon: 0 }
-            },
-            */
             arc(x1, y1, x2, y2) {
+                
+                // From http://bl.ocks.org/mbostock/1153292
+                // By default the arc is angled counter-clockwise
+                // When we draw westbound arcs, lets flip 
+                // the source and target
+
                 if (x1 >= x2) {
                     var tmpx2 = x2; x2 = x1; x1 = tmpx2
                     var tmpy2 = y2; y2 = y1; y1 = tmpy2
@@ -78,29 +55,8 @@
                 
                 return "M" + x1 + "," + y1 + "A" + dr + "," + dr +
                 " 0 0,1 " + x2 + "," + y2
-            }/*,
-            latScale(value) {
-                return d3.scaleLinear()
-                    .domain([this.latMin, this.latMax])
-                    .range([10, this.height - 10])
-                    (value)
-            },
-            lonScale(value) {
-                return d3.scaleLinear()
-                    .domain([this.lonMin, this.lonMax])
-                    .range([10, this.width - 10])
-                    (value)
-            },*/
-
-        },
-        mounted() {
-            /*this.$http.get('./data/airports.json').then(res =>
-                this.airports = res.body.filter(airport => {
-                    return airport.hasOwnProperty('lat');
-                })
-            )*/
+            }
         }
-
     }
 
 </script>

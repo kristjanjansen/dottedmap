@@ -43,7 +43,8 @@
 
 <script>
 
-    import * as d3 from 'd3'
+    import scaleLinear from 'd3'
+    import uniq from 'lodash.uniq'
 
     import Dots from './components/Dots.vue'
     import Route from './components/Route.vue'
@@ -51,15 +52,22 @@
     export default {
         name: 'App',
         components: { Dots, Route },
+        data: () => ({
+            source: 'TLL',
+            target: 'RGN',
+            width: 700,
+            sourceDots: { features: [] },
+            sourceAirports: []
+        }),
         methods: {
             latScale(value) {
-                return d3.scaleLinear()
+                return scaleLinear()
                     .domain([180, -180])
                     .range([10, this.height - 10])
                     (value)
             },
             lonScale(value) {
-                return d3.scaleLinear()
+                return scaleLinear()
                     .domain([-180, 180])
                     .range([10, this.width - 10])
                     (value)
@@ -85,16 +93,9 @@
                 this.sourceDots.features.forEach(feature => {
                     countries.push(...feature.properties.countries)
                 })
-                return _.uniq(countries)
+                return uniq(countries)
             }
         },
-        data: () => ({
-            source: 'TLL',
-            target: 'RGN',
-            width: 700,
-            sourceDots: { features: [] },
-            sourceAirports: []
-        }),
         mounted() {
             this.$http.get('./data/airports.json').then(res => {
                 this.sourceAirports = res.body

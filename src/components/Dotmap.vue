@@ -4,15 +4,15 @@
 
             <g :transform="'translate(0,' + (height / 4) * -1 + ')'">
 
-                <dots :dots="dots" :width="width"></dots>
+                <dotmap-dots :dots="dots" :width="width"></dotmap-dots>
 
-                <route
+                <dotmap-route
                     :sourcex="lonScale(getAirport(source).lon)"
                     :sourcey="latScale(getAirport(source).lat)"
                     :targetx="lonScale(getAirport(target).lon)"
                     :targety="latScale(getAirport(target).lat)"
                     radius="4"
-                ></route>
+                ></dotmap-route>
 
             </g>
 
@@ -25,11 +25,11 @@
     import { scaleLinear } from 'd3'
     import uniq from 'lodash.uniq'
 
-    import Dots from './Dots.vue'
-    import Route from './Route.vue'
+    import DotmapDots from './DotmapDots.vue'
+    import DotmapRoute from './DotmapRoute.vue'
 
     export default {
-        components: { Dots, Route },
+        components: { DotmapDots, DotmapRoute },
         props: {
             source: { default: '' },
             target: { default: '' },

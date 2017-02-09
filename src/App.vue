@@ -82,6 +82,13 @@
                         countries: dot.properties.countries
                     }
                 })
+            },
+            countries() {
+                var countries = []
+                rawDots.features.forEach(feature => {
+                    countries.push(...feature.properties.countries)
+                })
+                return _.uniq(countries)
             }
         },
         data: () => ({

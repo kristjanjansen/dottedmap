@@ -1,7 +1,7 @@
 echo "Generating airports"
 
-node generate_airports.js > ../src/components/airports.json
+node generate_airports.js > ../data/airports.json
 
 echo "Generating countries"
 
-node generate_dots.js > ../src/components/dots.json
+node generate_dots.js > ../data/dots.json

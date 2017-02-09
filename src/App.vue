@@ -17,6 +17,18 @@
                 <input v-model="target" size="4">
             </div>
 
+            <h4>Countries</h4>
+
+            <div>
+                <span
+                     v-for="country in countries"
+                     @click="$events.$emit('country', country)"
+                     style="font-size: 11px"
+                >
+                    {{ country }}
+                </span>
+            </div>
+
         </div>
 
         <dotmap :width="width" :source="source" :target="target"></dotmap>
@@ -27,6 +39,8 @@
 
 <script>
 
+    import uniq from 'lodash.uniq'
+
     import Dotmap from './components/Dotmap.vue'
 
     export default {
@@ -35,8 +49,18 @@
         data: () => ({
             source: 'TLL',
             target: 'RGN',
-            width: 700
+            width: 700,
+            countries: []
         }),
+        mounted() {
+            this.$http.get('./data/dots.json').then(res => {
+                var countries = []
+                res.body.features.forEach(feature => {
+                    countries.push(...feature.properties.countries)
+                })
+                this.countries = uniq(countries)
+            })
+        }
     }
 
 </script>

@@ -48,9 +48,6 @@
     import Dots from './components/Dots.vue'
     import Route from './components/Route.vue'
 
-    import rawDots from './components/dots.json'
-    import rawAirports from './components/airports.json'
-
     export default {
         name: 'App',
         components: { Dots, Route },
@@ -68,14 +65,14 @@
                     (value)
             },
             getAirport(code) {
-                var airport = rawAirports.find(airport => airport.iata === code)
+                var airport = this.sourceAirports.find(airport => airport.iata === code)
                 return airport ? airport : { lat: 0, lon: 0 }
             },
         },
         computed: {
             height() { return this.width },
             dots() {
-                return rawDots.features.map(dot => {
+                return this.sourceDots.features.map(dot => {
                     return {
                         lat: this.latScale(dot.geometry.coordinates[1]),
                         lon: this.lonScale(dot.geometry.coordinates[0]),
@@ -85,7 +82,7 @@
             },
             countries() {
                 var countries = []
-                rawDots.features.forEach(feature => {
+                this.sourceDots.features.forEach(feature => {
                     countries.push(...feature.properties.countries)
                 })
                 return _.uniq(countries)
@@ -94,8 +91,18 @@
         data: () => ({
             source: 'TLL',
             target: 'RGN',
-            width: 700
-        })
+            width: 700,
+            sourceDots: { features: [] },
+            sourceAirports: []
+        }),
+        mounted() {
+            this.$http.get('./data/airports.json').then(res => {
+                this.sourceAirports = res.body
+            })
+            this.$http.get('./data/dots.json').then(res => {
+                this.sourceDots = res.body
+            })
+        }
     }
 
 </script>

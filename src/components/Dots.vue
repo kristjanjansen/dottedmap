@@ -1,6 +1,7 @@
 <template>
     
-    <div>
+
+    <!--div>
         <h4>Airport routes</h4>
 
         <div style="display: flex; margin-bottom: 0.5rem;">
@@ -32,57 +33,42 @@
         <svg :width="width" :height="height" style="margin-top: -200px">
 
             <g :transform="'translate(0,' + (height / 4) * -1 + ')'">
+        -->
+        <g>
 
             <circle
-                v-for="point in points.features"
-                :cx="lonScale(point.geometry.coordinates[0])"
-                :cy="latScale(point.geometry.coordinates[1])"
+                v-for="dot in dots"
+                :cx="dot.lon"
+                :cy="dot.lat"
                 :r="radius"
-                :fill="isActive(point.properties.countries) ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.5)'"
+                :fill="isActive(dot.countries) ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.5)'"
             />
 
-            <route
-                :source="source1"
-                :target="target1"
-                :width="width"
-                :radius="radius * 1.2"
-            ></route>
-
-            <route
-                :source="source2"
-                :target="target2"
-                :width="width"
-                :radius="radius * 1.2"
-            ></route>
-
-            </g>
-
-        </svg>
-
-    </div>
-
-    </div>
+        </g>
 
 </template>
 
 <script>
 
-    import * as d3 from 'd3'
+    /*import * as d3 from 'd3'
     import _ from 'lodash'
 
     import points from './dots.json'
 
     import Route from './Route.vue'
+    */
 
     export default {
-        components: { Route },
+        //components: { Route },
         props: {
-            width: { default: 0 }
+            width: { default: 0 },
+            height: { default: 0 },
+            dots: { default: [] }
         },
         data: () => ({
-            points: points,
-            activeCountry: '',
-            latMin: 180,
+            //points: points,
+            activeCountry: ''
+            /*latMin: 180,
             latMax: -180,
             lonMin: -180,
             lonMax: 180,
@@ -90,12 +76,13 @@
             target1: 'CPH',
             source2: 'CPH',
             target2: 'RGN'
+            */
         }),
         computed: {
             radius() {
                 return this.width / 350
             },
-            height() {
+            /*height() {
                 return this.width
             },
             countries() {
@@ -107,10 +94,11 @@
 
                 return _.uniq(countries)
             }
+            */
             
         },
         methods: {
-            latScale(value) {
+            /*latScale(value) {
                 return d3.scaleLinear()
                     .domain([this.latMin, this.latMax])
                     .range([10, this.height - 10])
@@ -122,6 +110,7 @@
                     .range([10, this.width - 10])
                     (value)
             },
+            */
             isActive(countries) {
                 return countries.find(country => country === this.activeCountry)
             }
@@ -130,6 +119,3 @@
     }
 
 </script>
-
-<style>
-</style>

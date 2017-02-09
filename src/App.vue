@@ -23,7 +23,7 @@
 
             <g :transform="'translate(0,' + (height / 4) * -1 + ')'">
 
-                <dots :dots="dots" :width="width" :height="height"></dots>
+                <dots :dots="dots" :width="width"></dots>
 
                 <route
                     :sourcex="lonScale(getAirport(source).lon)"
@@ -43,7 +43,7 @@
 
 <script>
 
-    import scaleLinear from 'd3'
+    import { scaleLinear } from 'd3'
     import uniq from 'lodash.uniq'
 
     import Dots from './components/Dots.vue'

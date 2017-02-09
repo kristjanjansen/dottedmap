@@ -16,11 +16,10 @@
 
     export default {
         props: {
-            width: { default: 0 },
-            height: { default: 0 },
-            dots: { default: [] }
+            dots: { default: [] },
+            width: { default: 0 }
         },
-        data: () => ({ isActive: false })
+        data: () => ({ isActive: false }),
         computed: {
             radius() {
                 return this.width / 350

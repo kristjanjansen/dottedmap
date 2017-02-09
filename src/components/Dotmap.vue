@@ -67,15 +67,7 @@
                         countries: dot.properties.countries
                     }
                 })
-            },
-            /*countries() {
-                var countries = []
-                this.sourceDots.features.forEach(feature => {
-                    countries.push(...feature.properties.countries)
-                })
-                return uniq(countries)
             }
-            */
         },
         mounted() {
             this.$http.get('./data/airports.json').then(res => {

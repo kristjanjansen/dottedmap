@@ -22,8 +22,8 @@
             <div>
                 <span
                      v-for="country in countries"
-                     @click="$events.$emit('country', country)"
-                     style="font-size: 11px"
+                     @click="$events.$emit('dotmap.activeCountry', country)"
+                     style="font-size: 15px; cursor: pointer"
                 >
                     {{ country }}
                 </span>
@@ -59,6 +59,7 @@
                     countries.push(...feature.properties.countries)
                 })
                 this.countries = uniq(countries)
+                this.$events.$emit('dotmap.activeCountry', 'IT')
             })
         }
     }

@@ -33,7 +33,7 @@
             }
         },
         mounted() {
-            this.$events.$on('country', country => {
+            this.$events.$on('dotmap.activeCountry', country => {
                 this.activeCountry = country
             })
         }

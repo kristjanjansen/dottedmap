@@ -1,5 +1,11 @@
 var turf = require('@turf/turf')
 var countries = require('./countries.json')
+var codes = require('./codes.json')
+
+function iso3to2(iso3) {
+    var code = codes.find(code => code['ISO3166-1-Alpha-3'] === iso3)
+    return code ? code['ISO3166-1-Alpha-2'] : iso3
+}
 
 var lat = 0
 var lon = 0
@@ -34,7 +40,7 @@ for (var lat = 80; lat > -80; lat -= step) {
                     turf.polygon(country.geometry.coordinates)
                 )
                 if (intersection !== undefined) {
-                    circle.properties.countries.push(country.properties.name)
+                    circle.properties.countries.push(iso3to2(country.id))
                 }
             }
             if (country.geometry.type === 'MultiPolygon') {
@@ -44,7 +50,7 @@ for (var lat = 80; lat > -80; lat -= step) {
                         turf.polygon(polygon)
                     )
                     if (intersection !== undefined) {
-                        circle.properties.countries.push(country.properties.name)
+                        circle.properties.countries.push(iso3to2(country.id))
                     }
                 })
             }
@@ -56,6 +62,7 @@ for (var lat = 80; lat > -80; lat -= step) {
 
     }
 }
+
 
 var output = {
   "type": "FeatureCollection",

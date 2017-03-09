@@ -6,7 +6,7 @@
                 :cx="dot.lon"
                 :cy="dot.lat"
                 :r="radius"
-                :fill="isActive(dot) ? 'rgba(255,255,255,0.25)' : 'rgba(0,0,0,0.1)'"
+                :fill="isActive(dot) ? 'rgba(255,255,255,0.2)' : 'rgba(0,0,0,0.1)'"
             />
         </g>
 
@@ -20,7 +20,7 @@
             width: { default: 0 }
         },
         data: () => ({
-            activeCountry: '',
+            activeCountries: [],
         }),
         computed: {
             radius() {
@@ -29,12 +29,16 @@
         },
         methods: {
             isActive(dot) {
-                return dot.countries.indexOf(this.activeCountry) !== -1
+                return dot.countries.find(country => {
+                    return this
+                        .activeCountries
+                        .find(activeCountry => activeCountry === country)
+                })
             }
         },
         mounted() {
             this.$events.$on('dotmap.activeCountry', country => {
-                this.activeCountry = country
+                this.activeCountries.push(country)
             })
         }
     }

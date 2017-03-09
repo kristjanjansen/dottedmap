@@ -7,6 +7,7 @@
                 <dotmap-dots :dots="dots" :width="width"></dotmap-dots>
 
                 <dotmap-route
+                    v-if="getAirport(source).lon !== 0"
                     :sourcex="lonScale(getAirport(source).lon)"
                     :sourcey="latScale(getAirport(source).lat)"
                     :targetx="lonScale(getAirport(target).lon)"

@@ -23,7 +23,7 @@
                 <span
                      v-for="country in countries"
                      @click="$events.$emit('dotmap.activeCountry', country)"
-                     style="font-size: 15px; cursor: pointer"
+                     style="font-size: 13px; cursor: pointer"
                 >
                     {{ country }}
                 </span>
@@ -33,7 +33,7 @@
                 <span
                      v-for="city in cities"
                      @click="$events.$emit('dotmap.activeCity', city)"
-                     style="font-size: 15px; cursor: pointer"
+                     style="font-size: 13px; cursor: pointer"
                 >
                     {{ city.name }}
                 </span>
@@ -57,8 +57,8 @@
         name: 'App',
         components: { Dotmap },
         data: () => ({
-            source: 'TLL',
-            target: 'RGN',
+            source: '',
+            target: '',
             width: 900,
             countries: [],
             cities: []

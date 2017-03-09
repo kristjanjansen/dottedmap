@@ -8,10 +8,12 @@
   },
   "dependencies": {
     "@turf/turf": "^3.9.0",
+    "async": "^2.1.5",
     "d3": "^4.5.0",
     "d3-shape": "^1.0.4",
     "lodash": "^4.17.4",
     "lodash.uniq": "^4.5.0",
+    "request": "^2.81.0",
     "serve": "^3.2.7",
     "vue": "^2.1.0",
     "vue-resource": "^1.2.0"

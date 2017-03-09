@@ -29,6 +29,16 @@
                 </span>
             </div>
 
+            <div>
+                <span
+                     v-for="city in cities"
+                     @click="$events.$emit('dotmap.activeCity', city)"
+                     style="font-size: 15px; cursor: pointer"
+                >
+                    {{ city.name }}
+                </span>
+            </div>
+
         </div>
 
         <dotmap :width="width" :source="source" :target="target"></dotmap>
@@ -49,8 +59,9 @@
         data: () => ({
             source: 'TLL',
             target: 'RGN',
-            width: 700,
-            countries: []
+            width: 900,
+            countries: [],
+            cities: []
         }),
         mounted() {
             this.$http.get('./data/dots.json').then(res => {
@@ -59,7 +70,15 @@
                     countries.push(...feature.properties.countries)
                 })
                 this.countries = uniq(countries)
-                this.$events.$emit('dotmap.activeCountry', 'IT')
+            })
+            this.$http.get('./data/cities.json').then(res => {
+                res.body.features.forEach(feature => {
+                    this.cities.push({
+                        name: feature.properties.name,
+                        lat: feature.geometry.coordinates[1],
+                        lon: feature.geometry.coordinates[0]
+                    })
+                })
             })
         }
     }
@@ -72,7 +91,7 @@
         font-family: sans-serif;
         margin: 0;
         padding: 2rem;
-        background: orange;
+        background: #f4b700;
     }
     h4 { margin: 0.5rem 0; }
 

@@ -6,7 +6,7 @@
                 :cx="dot.lon"
                 :cy="dot.lat"
                 :r="radius"
-                :fill="isActive(dot) ? 'rgba(255,255,255,0.7)' : 'rgba(0,0,0,0.5)'"
+                :fill="isActive(dot) ? 'rgba(255,255,255,0.25)' : 'rgba(0,0,0,0.1)'"
             />
         </g>
 

@@ -1,0 +1,5731 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Olümpos"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tasmaania"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fääri saared"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "La Gomera",
+                "capital": false,
+                "geonameId": 2509770,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.29959,
+                    35.17204
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kreeta",
+                "capital": false,
+                "geonameId": 258763,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.14238,
+                    35.34194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alpid",
+                "capital": false,
+                "geonameId": 2182515,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    170.5,
+                    -43.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Šotimaa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "El Hierro",
+                "capital": false,
+                "geonameId": 2516747,
+                "population": 10162
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -18,
+                    27.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sevilla",
+                "capital": false,
+                "geonameId": 2510911,
+                "population": 703206
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.97317,
+                    37.38283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Amsterdam",
+                "capital": true,
+                "geonameId": 2759794,
+                "population": 741636
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.88969,
+                    52.37403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Madeira",
+                "capital": false,
+                "geonameId": 2593105,
+                "population": 238928
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.94699,
+                    32.76737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Phuket",
+                "capital": false,
+                "geonameId": 1151254,
+                "population": 89072
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.3981,
+                    7.89059
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bangkok",
+                "capital": true,
+                "geonameId": 1609350,
+                "population": 5104476
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.50144,
+                    13.75398
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ibiza",
+                "capital": false,
+                "geonameId": 2516479,
+                "population": 48684
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.43296,
+                    38.90883
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sydney",
+                "capital": false,
+                "geonameId": 2147714,
+                "population": 4627345
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.20732,
+                    -33.86785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Milos",
+                "capital": false,
+                "geonameId": 256952,
+                "population": 819
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.4265,
+                    36.74536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gran Canaria",
+                "capital": false,
+                "geonameId": 2515270,
+                "population": 381847
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.41343,
+                    28.09973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Meteora",
+                "capital": false,
+                "geonameId": 6941098,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.63111,
+                    39.71417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tenerife",
+                "capital": false,
+                "geonameId": 2511174,
+                "population": 222417
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.25462,
+                    28.46824
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lissabon",
+                "capital": true,
+                "geonameId": 2267057,
+                "population": 517802
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13333,
+                    38.71667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ateena",
+                "capital": true,
+                "geonameId": 264371,
+                "population": 664046
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.71622,
+                    37.97945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sitsiilia",
+                "capital": false,
+                "geonameId": 2523920,
+                "population": 648260
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.33561,
+                    38.13205
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Korfu",
+                "capital": false,
+                "geonameId": 2463679,
+                "population": 27003
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.91975,
+                    39.62069
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Berliin",
+                "capital": true,
+                "geonameId": 2950159,
+                "population": 3426354
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.41053,
+                    52.52437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ahvenamaa",
+                "capital": false,
+                "geonameId": 661882,
+                "population": 26711
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20,
+                    60.25
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Helsingi",
+                "capital": true,
+                "geonameId": 658225,
+                "population": 558457
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.93545,
+                    60.16952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Florida",
+                "capital": false,
+                "geonameId": 4155751,
+                "population": 17671452
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.5001,
+                    28.75054
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mykonos",
+                "capital": false,
+                "geonameId": 257055,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.38333,
+                    37.45
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pariis",
+                "capital": true,
+                "geonameId": 2988507,
+                "population": 2138551
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3488,
+                    48.85341
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Budapest",
+                "capital": true,
+                "geonameId": 3054643,
+                "population": 1741041
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.03991,
+                    47.49801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sansibar",
+                "capital": false,
+                "geonameId": 148730,
+                "population": 403658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.19793,
+                    -6.16394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Viin",
+                "capital": true,
+                "geonameId": 2761369,
+                "population": 1691468
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37208,
+                    48.20849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Niagara",
+                "capital": false,
+                "geonameId": 5128723,
+                "population": 50193
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.05671,
+                    43.0945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tokyo",
+                "capital": true,
+                "geonameId": 1850147,
+                "population": 8336599
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    139.69171,
+                    35.6895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Uyuni",
+                "capital": false,
+                "geonameId": 3901903,
+                "population": 10293
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -66.82503,
+                    -20.45967
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dublin",
+                "capital": true,
+                "geonameId": 2964574,
+                "population": 1024027
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.24889,
+                    53.33306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sikkim",
+                "capital": false,
+                "geonameId": 1256312,
+                "population": 610577
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.5,
+                    27.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rhodos",
+                "capital": false,
+                "geonameId": 400665,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.22654,
+                    36.44288
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Veneetsia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Surnumeri",
+                "capital": false,
+                "geonameId": 295347,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.49545,
+                    31.55747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "San Sebastian",
+                "capital": false,
+                "geonameId": 3110044,
+                "population": 185357
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.97499,
+                    43.31283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fuerteventura",
+                "capital": false,
+                "geonameId": 6297185,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.86376,
+                    28.45272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lihavõttesaar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Frankfurt",
+                "capital": false,
+                "geonameId": 2925533,
+                "population": 650000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.68417,
+                    50.11552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bogota",
+                "capital": true,
+                "geonameId": 3688689,
+                "population": 7674366
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.08175,
+                    4.60971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Himaalaja"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Phnom Penh",
+                "capital": true,
+                "geonameId": 1821306,
+                "population": 1573544
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    104.91601,
+                    11.56245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Angkor",
+                "capital": false,
+                "geonameId": 1831948,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.86661,
+                    13.41237
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Iguassu",
+                "capital": false,
+                "geonameId": 3463030,
+                "population": 293523
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -54.58806,
+                    -25.54778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dubai",
+                "capital": false,
+                "geonameId": 292223,
+                "population": 1137347
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.17128,
+                    25.0657
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lanzarote",
+                "capital": false,
+                "geonameId": 6297189,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -13.60556,
+                    28.95027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chicago",
+                "capital": false,
+                "geonameId": 4887398,
+                "population": 2695598
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.65005,
+                    41.85003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sahara",
+                "capital": false,
+                "geonameId": 2212709,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13,
+                    26
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tulemaa",
+                "capital": false,
+                "geonameId": 3834451,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70,
+                    -54
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Korsika",
+                "capital": false,
+                "geonameId": 3023519,
+                "population": 299209
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9542,
+                    42.06153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Borneo",
+                "capital": false,
+                "geonameId": 1648148,
+                "population": 19000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    114,
+                    1
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Marmaris",
+                "capital": false,
+                "geonameId": 304782,
+                "population": 33731
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.27417,
+                    36.855
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "München"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dalmaatsia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tallinn",
+                "capital": true,
+                "geonameId": 588409,
+                "population": 394024
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.75353,
+                    59.43696
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delhi",
+                "capital": false,
+                "geonameId": 1273294,
+                "population": 10927986
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    77.23149,
+                    28.65195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sulawesi",
+                "capital": false,
+                "geonameId": 1622786,
+                "population": 1321717
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    119.43194,
+                    -5.14861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sao Paulo",
+                "capital": false,
+                "geonameId": 3448439,
+                "population": 10021295
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.63611,
+                    -23.5475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Siber",
+                "capital": false,
+                "geonameId": 2559069,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.89035,
+                    33.85578
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sardiinia",
+                "capital": false,
+                "geonameId": 2523227,
+                "population": 1670219
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9,
+                    40
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ras Al Khaimah",
+                "capital": false,
+                "geonameId": 291074,
+                "population": 115949
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.9432,
+                    25.78953
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "San Diego",
+                "capital": false,
+                "geonameId": 5391811,
+                "population": 1307402
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.15726,
+                    32.71533
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Krimm",
+                "capital": false,
+                "geonameId": 2896071,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.31131,
+                    51.66212
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dresden",
+                "capital": false,
+                "geonameId": 2935022,
+                "population": 486854
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73832,
+                    51.05089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Umm Al Quwain",
+                "capital": false,
+                "geonameId": 290594,
+                "population": 44411
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.55517,
+                    25.56473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Abu Dhabi",
+                "capital": true,
+                "geonameId": 292968,
+                "population": 603492
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    54.36667,
+                    24.46667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Teravmäed"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sharjah",
+                "capital": false,
+                "geonameId": 292672,
+                "population": 543733
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.41206,
+                    25.33737
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dolomiidid",
+                "capital": false,
+                "geonameId": 3177545,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.85,
+                    46.38333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Suur Kanjon"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vancouver",
+                "capital": false,
+                "geonameId": 6173331,
+                "population": 600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.11934,
+                    49.24966
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alaska",
+                "capital": false,
+                "geonameId": 5879092,
+                "population": 660633
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -150.00028,
+                    64.00028
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ajman",
+                "capital": false,
+                "geonameId": 292932,
+                "population": 226172
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    55.43504,
+                    25.41111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Salzburg",
+                "capital": false,
+                "geonameId": 2766824,
+                "population": 150269
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.04399,
+                    47.79941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fujairah",
+                "capital": false,
+                "geonameId": 292878,
+                "population": 62415
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56.34141,
+                    25.11641
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vilnius",
+                "capital": true,
+                "geonameId": 593116,
+                "population": 542366
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2798,
+                    54.68916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Karjala",
+                "capital": false,
+                "geonameId": 830686,
+                "population": 166500
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.91667,
+                    62.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Oslo",
+                "capital": true,
+                "geonameId": 3143244,
+                "population": 580000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.74609,
+                    59.91273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hamburg",
+                "capital": false,
+                "geonameId": 2911298,
+                "population": 1739117
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.01534,
+                    53.57532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sharm el Sheikh",
+                "capital": false,
+                "geonameId": 349340,
+                "population": 12000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.32995,
+                    27.91582
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Köln"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hurghada",
+                "capital": false,
+                "geonameId": 361291,
+                "population": 95622
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.81291,
+                    27.25738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Auckland",
+                "capital": false,
+                "geonameId": 2193733,
+                "population": 417910
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.76667,
+                    -36.86667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zagreb",
+                "capital": true,
+                "geonameId": 3186886,
+                "population": 698966
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97798,
+                    45.81444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kemer",
+                "capital": false,
+                "geonameId": 1530324,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    65.26191,
+                    50.23295
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Strasbourg",
+                "capital": false,
+                "geonameId": 2973783,
+                "population": 274845
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.74553,
+                    48.58392
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Victoria juga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pattaya",
+                "capital": false,
+                "geonameId": 1614295,
+                "population": 97296
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.88333,
+                    12.93333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Andaluusia",
+                "capital": false,
+                "geonameId": 2514256,
+                "population": 568305
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.42034,
+                    36.72016
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dubrovnik",
+                "capital": false,
+                "geonameId": 3201047,
+                "population": 28428
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.09216,
+                    42.64807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brighton",
+                "capital": false,
+                "geonameId": 2654710,
+                "population": 139001
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.13947,
+                    50.82838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Agra",
+                "capital": false,
+                "geonameId": 1279259,
+                "population": 1430055
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.01667,
+                    27.18333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brisbane",
+                "capital": false,
+                "geonameId": 2174003,
+                "population": 2189878
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    153.02809,
+                    -27.46794
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bora Bora",
+                "capital": false,
+                "geonameId": 4034582,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -151.74067,
+                    -16.49667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Santiago de Compostela",
+                "capital": false,
+                "geonameId": 3109642,
+                "population": 95092
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.54569,
+                    42.88052
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bergen",
+                "capital": false,
+                "geonameId": 3161732,
+                "population": 213585
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.32415,
+                    60.39299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shanghai",
+                "capital": false,
+                "geonameId": 1796236,
+                "population": 22315474
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.45806,
+                    31.22222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ayers Rock",
+                "capital": false,
+                "geonameId": 6301288,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130.97754,
+                    -25.1891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "California",
+                "capital": false,
+                "geonameId": 11071615,
+                "population": 22000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.78467,
+                    34.68743
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Are",
+                "capital": false,
+                "geonameId": 2725422,
+                "population": 10273
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.12616,
+                    63.38305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Texas",
+                "capital": false,
+                "geonameId": 4736286,
+                "population": 22875689
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.25061,
+                    31.25044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Toskaana",
+                "capital": false,
+                "geonameId": 3176959,
+                "population": 349296
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.24626,
+                    43.77925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rimini",
+                "capital": false,
+                "geonameId": 3169361,
+                "population": 118673
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.56528,
+                    44.05755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Valencia",
+                "capital": false,
+                "geonameId": 2509954,
+                "population": 814208
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.37739,
+                    39.46975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Inglismaa",
+                "capital": true,
+                "geonameId": 2643743,
+                "population": 7556900
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12574,
+                    51.50853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bremen",
+                "capital": false,
+                "geonameId": 2944388,
+                "population": 546501
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.80777,
+                    53.07516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Birmingham",
+                "capital": false,
+                "geonameId": 2655603,
+                "population": 984333
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.89983,
+                    52.48142
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kataloonia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jurmala",
+                "capital": false,
+                "geonameId": 459201,
+                "population": 54088
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.77038,
+                    56.968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kuala Lumpur",
+                "capital": true,
+                "geonameId": 1735161,
+                "population": 1453975
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.68653,
+                    3.1412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tatrad"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rostock",
+                "capital": false,
+                "geonameId": 2844588,
+                "population": 198293
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.14049,
+                    54.0887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Washington DC",
+                "capital": true,
+                "geonameId": 4140963,
+                "population": 601723
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.03637,
+                    38.89511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Baikal",
+                "capital": false,
+                "geonameId": 2026982,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    109,
+                    54
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stonehenge",
+                "capital": false,
+                "geonameId": 2636812,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.82622,
+                    51.17889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kiiev",
+                "capital": true,
+                "geonameId": 703448,
+                "population": 2797553
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.5238,
+                    50.45466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moorea",
+                "capital": false,
+                "geonameId": 4034185,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.83333,
+                    -17.53333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Montreal",
+                "capital": false,
+                "geonameId": 6077243,
+                "population": 1600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.58781,
+                    45.50884
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Guangzhou",
+                "capital": false,
+                "geonameId": 1809858,
+                "population": 11071424
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.25,
+                    23.11667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Acapulco",
+                "capital": false,
+                "geonameId": 3533462,
+                "population": 652136
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.8901,
+                    16.86336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Agadir",
+                "capital": false,
+                "geonameId": 2561668,
+                "population": 698310
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.59815,
+                    30.42018
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kerala",
+                "capital": false,
+                "geonameId": 1267254,
+                "population": 33406061
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    76.5,
+                    10.41667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Oxford",
+                "capital": false,
+                "geonameId": 2640729,
+                "population": 154566
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.25596,
+                    51.75222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Madurai",
+                "capital": false,
+                "geonameId": 1264521,
+                "population": 909908
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    78.11962,
+                    9.91735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Okinawa",
+                "capital": false,
+                "geonameId": 1854345,
+                "population": 1416587
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    127.93333,
+                    26.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Düsseldorf"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rovaniemi",
+                "capital": false,
+                "geonameId": 638936,
+                "population": 34781
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.71667,
+                    66.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Andamani saared",
+                "capital": false,
+                "geonameId": 1278646,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    92.75004,
+                    12.50029
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Turku",
+                "capital": false,
+                "geonameId": 633679,
+                "population": 175945
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.26869,
+                    60.45148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Edinburgh",
+                "capital": false,
+                "geonameId": 2650225,
+                "population": 435791
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.19648,
+                    55.95206
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Margarita",
+                "capital": false,
+                "geonameId": 3632949,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -63.93568,
+                    10.98705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nordkap",
+                "capital": false,
+                "geonameId": 6622357,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.2,
+                    -66.78333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Fortaleza",
+                "capital": false,
+                "geonameId": 3399415,
+                "population": 2400000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.54306,
+                    -3.71722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stavanger",
+                "capital": false,
+                "geonameId": 3137115,
+                "population": 121610
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.73332,
+                    58.97005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Playa del Carmen",
+                "capital": false,
+                "geonameId": 3521342,
+                "population": 100383
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.07987,
+                    20.6274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Marrakech",
+                "capital": false,
+                "geonameId": 2542997,
+                "population": 839296
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.99994,
+                    31.63416
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dahab",
+                "capital": false,
+                "geonameId": 2463447,
+                "population": 75000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -15.95798,
+                    23.68477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Porto",
+                "capital": true,
+                "geonameId": 2392087,
+                "population": 234168
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.60359,
+                    6.49646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hsipaw",
+                "capital": false,
+                "geonameId": 1323082,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    97.30033,
+                    22.61659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Patagoonia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Amazonas",
+                "capital": false,
+                "geonameId": 3689982,
+                "population": 67726
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.5,
+                    -1.16667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "El Gouna",
+                "capital": false,
+                "geonameId": 6692512,
+                "population": 15000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    33.67825,
+                    27.39417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Puerto Vallarta",
+                "capital": false,
+                "geonameId": 3991328,
+                "population": 187134
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -105.23018,
+                    20.617
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Abuja",
+                "capital": true,
+                "geonameId": 2352778,
+                "population": 590400
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.49508,
+                    9.05785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mexico City",
+                "capital": true,
+                "geonameId": 3530597,
+                "population": 12294193
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -99.12766,
+                    19.42847
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kaunas",
+                "capital": false,
+                "geonameId": 598316,
+                "population": 374643
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.90961,
+                    54.90272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Machu Picchu",
+                "capital": false,
+                "geonameId": 3935634,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -72.54574,
+                    -13.16357
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Madriid"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mallorca",
+                "capital": false,
+                "geonameId": 2512989,
+                "population": 401270
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.65024,
+                    39.56939
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kaukaasia",
+                "capital": false,
+                "geonameId": 573081,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    45,
+                    42.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Riia",
+                "capital": true,
+                "geonameId": 456172,
+                "population": 742572
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10589,
+                    56.946
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tahiti",
+                "capital": false,
+                "geonameId": 4033649,
+                "population": 183645
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -149.42951,
+                    -17.6486
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Las Vegas",
+                "capital": false,
+                "geonameId": 5506956,
+                "population": 583756
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.13722,
+                    36.17497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Öland"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tiibet"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Surmaorg",
+                "capital": false,
+                "geonameId": 5342045,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.817,
+                    36.24662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lofoodid"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bali",
+                "capital": false,
+                "geonameId": 1650535,
+                "population": 3890757
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    115,
+                    -8.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bukarest",
+                "capital": true,
+                "geonameId": 683506,
+                "population": 1877155
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.10626,
+                    44.43225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Samui",
+                "capital": false,
+                "geonameId": 1606595,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.99357,
+                    9.50376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rio de Janeiro",
+                "capital": false,
+                "geonameId": 3451190,
+                "population": 6023699
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.2075,
+                    -22.90278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kopenhaagen",
+                "capital": true,
+                "geonameId": 2618425,
+                "population": 1153615
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.56553,
+                    55.67594
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brüssel"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Capri",
+                "capital": false,
+                "geonameId": 3180630,
+                "population": 6770
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.24263,
+                    40.55073
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sofia",
+                "capital": true,
+                "geonameId": 727011,
+                "population": 1152556
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.32415,
+                    42.69751
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yellowstone",
+                "capital": false,
+                "geonameId": 5640350,
+                "population": 104170
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -108.50069,
+                    45.78329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pompei",
+                "capital": false,
+                "geonameId": 3170336,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.48333,
+                    40.75
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Istanbul",
+                "capital": false,
+                "geonameId": 745044,
+                "population": 11174257
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.94966,
+                    41.01384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rooma",
+                "capital": true,
+                "geonameId": 3169070,
+                "population": 2318895
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.51133,
+                    41.89193
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gotland",
+                "capital": false,
+                "geonameId": 2711511,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.55,
+                    57.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "London",
+                "capital": true,
+                "geonameId": 2643743,
+                "population": 7556900
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12574,
+                    51.50853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Praha",
+                "capital": true,
+                "geonameId": 3067696,
+                "population": 1165581
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.42076,
+                    50.08804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lyon",
+                "capital": false,
+                "geonameId": 2996944,
+                "population": 472317
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.84671,
+                    45.74846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Goa",
+                "capital": false,
+                "geonameId": 1271157,
+                "population": 1458545
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    74.08333,
+                    15.33333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seattle",
+                "capital": false,
+                "geonameId": 5809844,
+                "population": 608660
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33207,
+                    47.60621
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wales",
+                "capital": false,
+                "geonameId": 2634895,
+                "population": 3000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5,
+                    52.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stockholm",
+                "capital": true,
+                "geonameId": 2673730,
+                "population": 1253309
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0649,
+                    59.33258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kamtshatka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moskva",
+                "capital": true,
+                "geonameId": 524901,
+                "population": 10381222
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    37.61556,
+                    55.75222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Soomaa",
+                "capital": false,
+                "geonameId": 796121,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25,
+                    58.33333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sankt Peterburg",
+                "capital": false,
+                "geonameId": 498817,
+                "population": 5028000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.31413,
+                    59.93863
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "New York",
+                "capital": false,
+                "geonameId": 5128581,
+                "population": 8175133
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.00597,
+                    40.71427
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lapimaa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mumbai",
+                "capital": false,
+                "geonameId": 1275339,
+                "population": 12691836
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    72.88261,
+                    19.07283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Genf",
+                "capital": false,
+                "geonameId": 2660646,
+                "population": 183981
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.14569,
+                    46.20222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cozumel",
+                "capital": false,
+                "geonameId": 3530103,
+                "population": 73934
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.94598,
+                    20.501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thessaloniki",
+                "capital": false,
+                "geonameId": 734077,
+                "population": 354290
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.93086,
+                    40.64361
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Milaano"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Boracay",
+                "capital": false,
+                "geonameId": 6619258,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.95348,
+                    11.92417
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thimphu",
+                "capital": true,
+                "geonameId": 1252416,
+                "population": 98676
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    89.64191,
+                    27.46609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Reykjavik",
+                "capital": true,
+                "geonameId": 3413829,
+                "population": 118918
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -21.89541,
+                    64.13548
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Rijeka",
+                "capital": false,
+                "geonameId": 3191648,
+                "population": 141172
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.40917,
+                    45.34306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dhaka",
+                "capital": true,
+                "geonameId": 1185241,
+                "population": 10356500
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    90.40744,
+                    23.7104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kabul",
+                "capital": true,
+                "geonameId": 1138958,
+                "population": 3043532
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.17233,
+                    34.52813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kos",
+                "capital": false,
+                "geonameId": 259244,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.14665,
+                    36.84452
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vladivostok",
+                "capital": false,
+                "geonameId": 2013348,
+                "population": 587022
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    131.87353,
+                    43.10562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Odessa",
+                "capital": false,
+                "geonameId": 698740,
+                "population": 1001558
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.73262,
+                    46.47747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Split",
+                "capital": false,
+                "geonameId": 3190261,
+                "population": 176314
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.43915,
+                    43.50891
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Belgrad",
+                "capital": true,
+                "geonameId": 792680,
+                "population": 1273651
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.46513,
+                    44.80401
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bakuu",
+                "capital": true,
+                "geonameId": 587084,
+                "population": 1116513
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    49.89201,
+                    40.37767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bratislava",
+                "capital": true,
+                "geonameId": 3060972,
+                "population": 423737
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10674,
+                    48.14816
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Batumi",
+                "capital": false,
+                "geonameId": 615532,
+                "population": 121806
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    41.63392,
+                    41.64228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Harare",
+                "capital": true,
+                "geonameId": 890299,
+                "population": 1542813
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.05337,
+                    -17.82772
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kutaisi",
+                "capital": false,
+                "geonameId": 613607,
+                "population": 178338
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    42.69459,
+                    42.26791
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Havanna",
+                "capital": true,
+                "geonameId": 3553478,
+                "population": 2163824
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.38304,
+                    23.13302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Aconcagua",
+                "capital": false,
+                "geonameId": 3866949,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.01141,
+                    -32.65383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alicante",
+                "capital": false,
+                "geonameId": 2521978,
+                "population": 334757
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.48149,
+                    38.34517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chichen-Itza",
+                "capital": false,
+                "geonameId": 3530977,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.56912,
+                    20.68346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Casablanca",
+                "capital": false,
+                "geonameId": 2553604,
+                "population": 3144909
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.61138,
+                    33.58831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sarajevo",
+                "capital": true,
+                "geonameId": 3191281,
+                "population": 696731
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.35644,
+                    43.84864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jerevan",
+                "capital": true,
+                "geonameId": 616052,
+                "population": 1093485
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.51361,
+                    40.18111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tirana",
+                "capital": true,
+                "geonameId": 3183875,
+                "population": 374801
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.81889,
+                    41.3275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Angeli juga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yaounde",
+                "capital": true,
+                "geonameId": 2220957,
+                "population": 1299369
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.51667,
+                    3.86667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Göteborg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Krakow",
+                "capital": false,
+                "geonameId": 3094802,
+                "population": 755050
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.93658,
+                    50.06143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Valletta",
+                "capital": true,
+                "geonameId": 2562305,
+                "population": 6794
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.51472,
+                    35.89972
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Podgorica",
+                "capital": true,
+                "geonameId": 3193044,
+                "population": 136473
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.26361,
+                    42.44111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dakar",
+                "capital": true,
+                "geonameId": 2253354,
+                "population": 2476400
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -17.44406,
+                    14.6937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Wellington",
+                "capital": true,
+                "geonameId": 2179537,
+                "population": 381900
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.77557,
+                    -41.28664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tbilisi",
+                "capital": true,
+                "geonameId": 611717,
+                "population": 1049498
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    44.83368,
+                    41.69411
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chisinau",
+                "capital": true,
+                "geonameId": 618426,
+                "population": 635994
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8575,
+                    47.00556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Assoorid",
+                "capital": false,
+                "geonameId": 3373385,
+                "population": 243101
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -25.67282,
+                    37.74058
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Skopje",
+                "capital": true,
+                "geonameId": 785842,
+                "population": 474889
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.43141,
+                    41.99646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Napoli",
+                "capital": false,
+                "geonameId": 3172394,
+                "population": 959470
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.24641,
+                    40.85631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sarawak",
+                "capital": false,
+                "geonameId": 1733038,
+                "population": 2420009
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    113.5,
+                    2.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tampere",
+                "capital": false,
+                "geonameId": 634963,
+                "population": 202687
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.78712,
+                    61.49911
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sabah",
+                "capital": false,
+                "geonameId": 412800,
+                "population": 139163
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.05722,
+                    29.25722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stuttgart",
+                "capital": false,
+                "geonameId": 2825297,
+                "population": 589793
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.17702,
+                    48.78232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kolkata",
+                "capital": false,
+                "geonameId": 1275004,
+                "population": 4631392
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    88.36304,
+                    22.56263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bordeaux",
+                "capital": false,
+                "geonameId": 3031582,
+                "population": 231844
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5805,
+                    44.84044
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cancun",
+                "capital": false,
+                "geonameId": 3531673,
+                "population": 542043
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.84656,
+                    21.17429
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Izmir",
+                "capital": false,
+                "geonameId": 311046,
+                "population": 2500603
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.13838,
+                    38.41273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Buenos Aires",
+                "capital": true,
+                "geonameId": 3435910,
+                "population": 13076300
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -58.37723,
+                    -34.61315
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cuzco",
+                "capital": false,
+                "geonameId": 3941584,
+                "population": 312140
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.96734,
+                    -13.52264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kuldsed liivad"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Amman",
+                "capital": true,
+                "geonameId": 250441,
+                "population": 1275857
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.94503,
+                    31.95522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Penang",
+                "capital": false,
+                "geonameId": 1733047,
+                "population": 1520143
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.25848,
+                    5.37677
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tel Aviv",
+                "capital": false,
+                "geonameId": 293397,
+                "population": 250000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.78057,
+                    32.08088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Langkawi",
+                "capital": false,
+                "geonameId": 6301256,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.72867,
+                    6.32973
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Toronto",
+                "capital": false,
+                "geonameId": 6167865,
+                "population": 2600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.4163,
+                    43.70011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Peking",
+                "capital": true,
+                "geonameId": 1816670,
+                "population": 11716620
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.39723,
+                    39.9075
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eilat",
+                "capital": false,
+                "geonameId": 295277,
+                "population": 45588
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.94821,
+                    29.55805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seoul",
+                "capital": true,
+                "geonameId": 1835848,
+                "population": 10349312
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.9784,
+                    37.566
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Santorini",
+                "capital": false,
+                "geonameId": 252919,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.45682,
+                    36.40572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Luanda",
+                "capital": true,
+                "geonameId": 2240449,
+                "population": 2776168
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.23432,
+                    -8.83682
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beirut",
+                "capital": true,
+                "geonameId": 276781,
+                "population": 1916100
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.49442,
+                    33.88894
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alžiir"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ashgabat",
+                "capital": true,
+                "geonameId": 162183,
+                "population": 727700
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    58.38333,
+                    37.95
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Alanya",
+                "capital": false,
+                "geonameId": 324190,
+                "population": 112969
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.99982,
+                    36.54375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lagos",
+                "capital": false,
+                "geonameId": 2332459,
+                "population": 9000000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.39467,
+                    6.45407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gaborone",
+                "capital": true,
+                "geonameId": 933773,
+                "population": 208411
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.90859,
+                    -24.65451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ljubljana",
+                "capital": true,
+                "geonameId": 3196359,
+                "population": 272220
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50513,
+                    46.05108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Asmara",
+                "capital": true,
+                "geonameId": 343300,
+                "population": 563930
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.93184,
+                    15.33805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antananarivo",
+                "capital": true,
+                "geonameId": 1070940,
+                "population": 1391433
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    47.53613,
+                    -18.91368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nosy Be",
+                "capital": false,
+                "geonameId": 1058090,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    48.25899,
+                    -13.31421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Phi Phi",
+                "capital": false,
+                "geonameId": 1151398,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.76601,
+                    7.68302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Maputo",
+                "capital": true,
+                "geonameId": 1040652,
+                "population": 1191613
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.58322,
+                    -25.96553
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Banjul",
+                "capital": true,
+                "geonameId": 2413876,
+                "population": 34589
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -16.57803,
+                    13.45274
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Lanta",
+                "capital": false,
+                "geonameId": 1152670,
+                "population": 6090
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.08647,
+                    7.53362
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Phangan",
+                "capital": false,
+                "geonameId": 10376444,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    100.03575,
+                    9.79242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kinshasa",
+                "capital": true,
+                "geonameId": 2314302,
+                "population": 7785965
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.31357,
+                    -4.32758
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Accra",
+                "capital": true,
+                "geonameId": 2306104,
+                "population": 1963264
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1969,
+                    5.55602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lusaka",
+                "capital": true,
+                "geonameId": 909137,
+                "population": 1267440
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.28713,
+                    -15.40669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tunis",
+                "capital": true,
+                "geonameId": 2464470,
+                "population": 693210
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.16579,
+                    36.81897
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kigali",
+                "capital": true,
+                "geonameId": 202061,
+                "population": 745261
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.05885,
+                    -1.94995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Douala",
+                "capital": false,
+                "geonameId": 2232593,
+                "population": 1338082
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.70428,
+                    4.04827
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dar es Salaam",
+                "capital": false,
+                "geonameId": 160263,
+                "population": 2698652
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.26951,
+                    -6.82349
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Galle",
+                "capital": false,
+                "geonameId": 1246294,
+                "population": 93118
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.217,
+                    6.0367
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "N'Djamena",
+                "capital": true,
+                "geonameId": 2427123,
+                "population": 721081
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.0444,
+                    12.10672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Windhoek",
+                "capital": true,
+                "geonameId": 3352136,
+                "population": 268132
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.08323,
+                    -22.55941
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nuwara Eliya",
+                "capital": false,
+                "geonameId": 1232783,
+                "population": 25775
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.78286,
+                    6.97078
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kandy",
+                "capital": false,
+                "geonameId": 1241622,
+                "population": 111701
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.6356,
+                    7.2955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Johannesburg",
+                "capital": false,
+                "geonameId": 993800,
+                "population": 2026469
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.04363,
+                    -26.20227
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kampala",
+                "capital": true,
+                "geonameId": 232422,
+                "population": 1353189
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.58219,
+                    0.31628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Addis Abeba",
+                "capital": true,
+                "geonameId": 344979,
+                "population": 2757729
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.74689,
+                    9.02497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kaplinn",
+                "capital": false,
+                "geonameId": 3369157,
+                "population": 3433441
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.42322,
+                    -33.92584
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Santiago",
+                "capital": true,
+                "geonameId": 3871336,
+                "population": 4837295
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -70.64827,
+                    -33.45694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Colombo",
+                "capital": true,
+                "geonameId": 1248991,
+                "population": 648034
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    79.84778,
+                    6.93194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Asuncion",
+                "capital": true,
+                "geonameId": 3439389,
+                "population": 1482200
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -57.63591,
+                    -25.30066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Salvador",
+                "capital": false,
+                "geonameId": 3585968,
+                "population": 6052064
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.91667,
+                    13.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mandalay",
+                "capital": false,
+                "geonameId": 1311874,
+                "population": 1208099
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.08359,
+                    21.97473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Katmandu",
+                "capital": true,
+                "geonameId": 1283240,
+                "population": 1442271
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    85.3206,
+                    27.70169
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ulaanbaatar",
+                "capital": true,
+                "geonameId": 2028462,
+                "population": 844818
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.88324,
+                    47.90771
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Yangon",
+                "capital": false,
+                "geonameId": 1298824,
+                "population": 4477638
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    96.15611,
+                    16.80528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chiang Mai",
+                "capital": false,
+                "geonameId": 1153671,
+                "population": 200952
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    98.98468,
+                    18.79038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chiang Rai",
+                "capital": false,
+                "geonameId": 1153669,
+                "population": 78756
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.8325,
+                    19.90858
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "La PAz",
+                "capital": false,
+                "geonameId": 3911925,
+                "population": 812799
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -68.15,
+                    -16.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Male",
+                "capital": true,
+                "geonameId": 1282027,
+                "population": 103693
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.50888,
+                    4.1748
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Biškek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Vientiane",
+                "capital": true,
+                "geonameId": 1651944,
+                "population": 196731
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.6,
+                    17.96667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hanoi",
+                "capital": true,
+                "geonameId": 1581130,
+                "population": 1431270
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.84117,
+                    21.0245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ho Chi Minh",
+                "capital": false,
+                "geonameId": 1566083,
+                "population": 3467331
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.62965,
+                    10.82302
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sapporo",
+                "capital": false,
+                "geonameId": 2128295,
+                "population": 1883027
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    141.35,
+                    43.06667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Siem Reap",
+                "capital": false,
+                "geonameId": 1822214,
+                "population": 139458
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.86056,
+                    13.36179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Osaka",
+                "capital": false,
+                "geonameId": 1853909,
+                "population": 2592413
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    135.50218,
+                    34.69374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bohol",
+                "capital": false,
+                "geonameId": 1724399,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    124.16667,
+                    9.83333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pyongyang",
+                "capital": true,
+                "geonameId": 1871859,
+                "population": 3222000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    125.75432,
+                    39.03385
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sihanoukville",
+                "capital": false,
+                "geonameId": 1831142,
+                "population": 156691
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.52958,
+                    10.60932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lombok",
+                "capital": false,
+                "geonameId": 8051259,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    116.27655,
+                    -8.75914
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gili saared"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cebu",
+                "capital": false,
+                "geonameId": 1717512,
+                "population": 798634
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    123.89071,
+                    10.31672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Taipei",
+                "capital": true,
+                "geonameId": 1668341,
+                "population": 7871900
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    121.53185,
+                    25.04776
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Luang Prabang",
+                "capital": false,
+                "geonameId": 1655559,
+                "population": 47378
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.13503,
+                    19.88601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pai",
+                "capital": false,
+                "geonameId": 2038541,
+                "population": 70472
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    126.08481,
+                    47.60605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Astana",
+                "capital": true,
+                "geonameId": 1526273,
+                "population": 345604
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    71.44598,
+                    51.1801
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dušanbe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Islamabad",
+                "capital": true,
+                "geonameId": 1176615,
+                "population": 601600
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    73.04329,
+                    33.72148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hikkaduwa",
+                "capital": false,
+                "geonameId": 1244178,
+                "population": 1300
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    80.1012,
+                    6.1407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manila",
+                "capital": true,
+                "geonameId": 1701668,
+                "population": 1600000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    120.9822,
+                    14.6042
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Tao",
+                "capital": false,
+                "geonameId": 6698659,
+                "population": 1382
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    99.83809,
+                    10.09808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hoi An",
+                "capital": false,
+                "geonameId": 1580541,
+                "population": 32757
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    108.335,
+                    15.87944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hartum",
+                "capital": true,
+                "geonameId": 379252,
+                "population": 1974647
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.53241,
+                    15.55177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Varssavi",
+                "capital": true,
+                "geonameId": 756135,
+                "population": 1702139
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.01178,
+                    52.22977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tashkent",
+                "capital": true,
+                "geonameId": 1512569,
+                "population": 1978028
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    69.21627,
+                    41.26465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Minsk",
+                "capital": true,
+                "geonameId": 625144,
+                "population": 1742124
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.56667,
+                    53.9
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palawan",
+                "capital": false,
+                "geonameId": 1696177,
+                "population": 682152
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    118.75,
+                    10
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Phu Quoc",
+                "capital": false,
+                "geonameId": 11287523,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.99384,
+                    10.17032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Koh Chang",
+                "capital": false,
+                "geonameId": 1611309,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102.29947,
+                    12.04888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Manchester",
+                "capital": false,
+                "geonameId": 2643123,
+                "population": 395515
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.23743,
+                    53.48095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Altai",
+                "capital": false,
+                "geonameId": 1511732,
+                "population": 2586976
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    83,
+                    52.5
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Karpaadid",
+                "capital": false,
+                "geonameId": 682674,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.5,
+                    47
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kairo",
+                "capital": true,
+                "geonameId": 360630,
+                "population": 7734614
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    31.24967,
+                    30.06263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Algarve",
+                "capital": false,
+                "geonameId": 2271989,
+                "population": 411306
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.15642,
+                    37.18849
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Melbourne",
+                "capital": false,
+                "geonameId": 2158177,
+                "population": 4246375
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    144.96332,
+                    -37.814
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Quebec",
+                "capital": false,
+                "geonameId": 6325494,
+                "population": 528595
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.21454,
+                    46.81228
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lima",
+                "capital": true,
+                "geonameId": 3936456,
+                "population": 7737002
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.02824,
+                    -12.04318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mombasa",
+                "capital": false,
+                "geonameId": 186301,
+                "population": 799668
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    39.66359,
+                    -4.05466
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nazca",
+                "capital": false,
+                "geonameId": 3934356,
+                "population": 23556
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -74.93895,
+                    -14.83098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Baierimaa"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sousse",
+                "capital": false,
+                "geonameId": 2464915,
+                "population": 164123
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.63699,
+                    35.82539
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilimandžaaro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nuweiba",
+                "capital": false,
+                "geonameId": 350893,
+                "population": 5000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.6634,
+                    29.04681
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Taba",
+                "capital": false,
+                "geonameId": 347702,
+                "population": 700
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.89572,
+                    29.49199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tuamotu",
+                "capital": false,
+                "geonameId": 4030621,
+                "population": 16267
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -139,
+                    -19
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Antalya",
+                "capital": false,
+                "geonameId": 323777,
+                "population": 758188
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    30.69556,
+                    36.90812
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jakarta",
+                "capital": true,
+                "geonameId": 1642911,
+                "population": 8540121
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    106.84513,
+                    -6.21462
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Normandia",
+                "capital": false,
+                "geonameId": 3013756,
+                "population": 1816716
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1,
+                    49.41667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Päikeserannik"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Leeds",
+                "capital": false,
+                "geonameId": 2644688,
+                "population": 455123
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.54785,
+                    53.79648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Provence",
+                "capital": false,
+                "geonameId": 3038354,
+                "population": 146821
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.44973,
+                    43.5283
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glasgow",
+                "capital": false,
+                "geonameId": 2648579,
+                "population": 610268
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.25763,
+                    55.86515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Calgary",
+                "capital": false,
+                "geonameId": 5913490,
+                "population": 1019942
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -114.08529,
+                    51.05011
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Masai Mara",
+                "capital": false,
+                "geonameId": 187536,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.91667,
+                    -1.41667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zürich"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cote d'Azur",
+                "capital": false,
+                "geonameId": 3037456,
+                "population": 76393
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.12777,
+                    43.56241
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palanga",
+                "capital": false,
+                "geonameId": 596238,
+                "population": 17796
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.06861,
+                    55.9175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kapadookia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Innsbruck",
+                "capital": false,
+                "geonameId": 2775220,
+                "population": 112467
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.39454,
+                    47.26266
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Nairobi",
+                "capital": true,
+                "geonameId": 184745,
+                "population": 2750547
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    36.81667,
+                    -1.28333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tangier",
+                "capital": false,
+                "geonameId": 2530335,
+                "population": 688356
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.79975,
+                    35.76727
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Liguuria",
+                "capital": false,
+                "geonameId": 3176219,
+                "population": 580223
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.91519,
+                    44.4264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sumatra",
+                "capital": false,
+                "geonameId": 1626198,
+                "population": 50365538
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    102,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Krk",
+                "capital": false,
+                "geonameId": 3197206,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.61694,
+                    45.07528
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Markiisisaared"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0,
+                    0
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Newcastle",
+                "capital": false,
+                "geonameId": 2155472,
+                "population": 308308
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    151.77647,
+                    -32.92715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Java",
+                "capital": false,
+                "geonameId": 1625822,
+                "population": 2374658
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.75083,
+                    -7.24917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Teheran",
+                "capital": true,
+                "geonameId": 112931,
+                "population": 7153309
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    51.42151,
+                    35.69439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Varadero",
+                "capital": false,
+                "geonameId": 3534632,
+                "population": 20000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.24441,
+                    23.15678
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Titicaca",
+                "capital": false,
+                "geonameId": 3927364,
+                "population": 0
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -69.4,
+                    -15.8
+                ]
+            }
+        }
+    ]
+}

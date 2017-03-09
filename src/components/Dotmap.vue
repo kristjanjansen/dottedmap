@@ -14,6 +14,14 @@
                     radius="4"
                 ></dotmap-route>
 
+                <circle
+                    v-for="city in cities"
+                    :cx="lonScale(city.lon)"
+                    :cy="latScale(city.lat)"
+                    :r="width / 350"
+                    fill="white"
+                />
+
             </g>
 
         </svg>
@@ -37,7 +45,8 @@
         },
         data: () => ({
             sourceDots: { features: [] },
-            sourceAirports: []
+            sourceAirports: [],
+            cities: []
         }),
         methods: {
             latScale(value) {
@@ -75,6 +84,9 @@
             })
             this.$http.get('./data/dots.json').then(res => {
                 this.sourceDots = res.body
+            })
+            this.$events.$on('dotmap.activeCity', city => {
+                this.cities.push(city)
             })
         }
     }

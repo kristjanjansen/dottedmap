@@ -37,7 +37,7 @@ var citiesData = []
                     }
 
                 citiesData.push(cityData)
-                setTimeout(cb, 50)
+                setTimeout(cb, 1000)
             }
         )
     }, () => {

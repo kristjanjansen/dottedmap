@@ -35,7 +35,7 @@
                      @click="$events.$emit('dotmap.activeCity', city)"
                      style="font-size: 13px; cursor: pointer"
                 >
-                    {{ city.name }}
+                    {{ city.id }}
                 </span>
             </div>
 
@@ -74,7 +74,7 @@
             this.$http.get('./data/cities.json').then(res => {
                 res.body.features.forEach(feature => {
                     this.cities.push({
-                        name: feature.properties.name,
+                        id: feature.properties.id,
                         lat: feature.geometry.coordinates[1],
                         lon: feature.geometry.coordinates[0]
                     })

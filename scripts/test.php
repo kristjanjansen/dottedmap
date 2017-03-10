@@ -1,7 +1,7 @@
 
 <?php
 
-$a = [
+return [
 
     46 => [
         'name' => "Sevilla",
@@ -34,6 +34,22 @@ $a = [
         'capital' => true,
         'population' => 741636,
         'geoname' => 2759794,
+    ],
+    383 => [
+        'name' => "Fääri saared",
+        'lat' => 62,
+        'lon' => -7,
+        'capital' => false,
+        'population' => 48228,
+        'geoname' => 2622320,
+    ],
+    424 => [
+        'name' => "Tasmaania",
+        'lat' => -42,
+        'lon' => 147,
+        'capital' => false,
+        'population' => 495354,
+        'geoname' => 2147291,
     ],
     425 => [
         'name' => "Sitsiilia",
@@ -90,6 +106,14 @@ $a = [
         'capital' => false,
         'population' => 27003,
         'geoname' => 2463679,
+    ],
+    432 => [
+        'name' => "Olümpos",
+        'lat' => 40.08175,
+        'lon' => 22.34954,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 734890,
     ],
     433 => [
         'name' => "Meteora",
@@ -195,6 +219,22 @@ $a = [
         'population' => 5028000,
         'geoname' => 498817,
     ],
+    446 => [
+        'name' => "Kamtshatka",
+        'lat' => 56,
+        'lon' => 160,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 2125073,
+    ],
+    447 => [
+        'name' => "Lapimaa",
+        'lat' => 67.75,
+        'lon' => 26.5,
+        'capital' => false,
+        'population' => 182885,
+        'geoname' => 830603,
+    ],
     448 => [
         'name' => "Helsingi",
         'lat' => 60.16952,
@@ -251,6 +291,14 @@ $a = [
         'population' => 401270,
         'geoname' => 2512989,
     ],
+    457 => [
+        'name' => "Madriid",
+        'lat' => 40.42526,
+        'lon' => -3.69063,
+        'capital' => false,
+        'population' => 6386932,
+        'geoname' => 3117732,
+    ],
     459 => [
         'name' => "London",
         'lat' => 51.50853,
@@ -258,6 +306,14 @@ $a = [
         'capital' => true,
         'population' => 7556900,
         'geoname' => 2643743,
+    ],
+    460 => [
+        'name' => "Šotimaa",
+        'lat' => 56,
+        'lon' => -4,
+        'capital' => false,
+        'population' => 5000000,
+        'geoname' => 2638360,
     ],
     461 => [
         'name' => "Stockholm",
@@ -347,6 +403,14 @@ $a = [
         'population' => 472317,
         'geoname' => 2996944,
     ],
+    498 => [
+        'name' => "Brüssel",
+        'lat' => 50.85115,
+        'lon' => 4.34526,
+        'capital' => false,
+        'population' => 164417,
+        'geoname' => 3337389,
+    ],
     499 => [
         'name' => "Yellowstone",
         'lat' => 45.78329,
@@ -419,6 +483,14 @@ $a = [
         'population' => 293523,
         'geoname' => 3463030,
     ],
+    510 => [
+        'name' => "Öland",
+        'lat' => 56.751,
+        'lon' => 16.63333,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 2687204,
+    ],
     519 => [
         'name' => "Viin",
         'lat' => 48.20849,
@@ -482,6 +554,22 @@ $a = [
         'capital' => false,
         'population' => 10293,
         'geoname' => 3901903,
+    ],
+    537 => [
+        'name' => "Lofoodid",
+        'lat' => 68.47111,
+        'lon' => 13.86361,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 3147088,
+    ],
+    540 => [
+        'name' => "Veneetsia",
+        'lat' => 45.44045,
+        'lon' => 12.32632,
+        'capital' => false,
+        'population' => 846962,
+        'geoname' => 3164600,
     ],
     541 => [
         'name' => "Surnumeri",
@@ -563,6 +651,14 @@ $a = [
         'population' => 0,
         'geoname' => 6297189,
     ],
+    573 => [
+        'name' => "Himaalaja",
+        'lat' => 28,
+        'lon' => 84,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 1252558,
+    ],
     578 => [
         'name' => "Fuerteventura",
         'lat' => 28.45272,
@@ -603,6 +699,14 @@ $a = [
         'population' => 19000000,
         'geoname' => 1648148,
     ],
+    590 => [
+        'name' => "Suur Kanjon",
+        'lat' => 37.2722,
+        'lon' => -113.09522,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 5539912,
+    ],
     622 => [
         'name' => "Niagara",
         'lat' => 43.0945,
@@ -618,6 +722,22 @@ $a = [
         'capital' => false,
         'population' => 33731,
         'geoname' => 304782,
+    ],
+    636 => [
+        'name' => "Victoria juga",
+        'lat' => -17.93285,
+        'lon' => 25.83066,
+        'capital' => false,
+        'population' => 35761,
+        'geoname' => 879431,
+    ],
+    663 => [
+        'name' => "Dalmaatsia",
+        'lat' => 43,
+        'lon' => 17,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 3202210,
     ],
     664 => [
         'name' => "Zagreb",
@@ -643,6 +763,14 @@ $a = [
         'population' => 0,
         'geoname' => 796121,
     ],
+    669 => [
+        'name' => "Lihavõttesaar",
+        'lat' => -27.11667,
+        'lon' => -109.36667,
+        'capital' => false,
+        'population' => 5034,
+        'geoname' => 4030726,
+    ],
     670 => [
         'name' => "Frankfurt",
         'lat' => 50.11552,
@@ -659,6 +787,14 @@ $a = [
         'population' => 0,
         'geoname' => 1323082,
     ],
+    733 => [
+        'name' => "Tiibet",
+        'lat' => 31.66667,
+        'lon' => 88,
+        'capital' => false,
+        'population' => 2870000,
+        'geoname' => 1279685,
+    ],
     760 => [
         'name' => "Bogota",
         'lat' => 4.60971,
@@ -666,6 +802,14 @@ $a = [
         'capital' => true,
         'population' => 7674366,
         'geoname' => 3688689,
+    ],
+    771 => [
+        'name' => "München",
+        'lat' => 48.13452,
+        'lon' => 11.571,
+        'capital' => false,
+        'population' => 1388308,
+        'geoname' => 6559171,
     ],
     775 => [
         'name' => "Dubai",
@@ -851,6 +995,14 @@ $a = [
         'population' => 73934,
         'geoname' => 3530103,
     ],
+    1103 => [
+        'name' => "Teravmäed",
+        'lat' => 78.0529,
+        'lon' => 17.70996,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 7535696,
+    ],
     1161 => [
         'name' => "Dahab",
         'lat' => 23.68477,
@@ -891,6 +1043,14 @@ $a = [
         'population' => 0,
         'geoname' => 1530324,
     ],
+    1244 => [
+        'name' => "Milaano",
+        'lat' => 45.46416,
+        'lon' => 9.19199,
+        'capital' => false,
+        'population' => 1242123,
+        'geoname' => 6542283,
+    ],
     1266 => [
         'name' => "California",
         'lat' => 34.68743,
@@ -930,6 +1090,14 @@ $a = [
         'capital' => false,
         'population' => 150269,
         'geoname' => 2766824,
+    ],
+    1300 => [
+        'name' => "Baierimaa",
+        'lat' => 49,
+        'lon' => 11.5,
+        'capital' => false,
+        'population' => 12510331,
+        'geoname' => 2951839,
     ],
     1307 => [
         'name' => "Manchester",
@@ -1043,6 +1211,14 @@ $a = [
         'population' => 580000,
         'geoname' => 3143244,
     ],
+    1554 => [
+        'name' => "Köln",
+        'lat' => 50.93835,
+        'lon' => 6.95427,
+        'capital' => false,
+        'population' => 1024373,
+        'geoname' => 6553049,
+    ],
     1585 => [
         'name' => "Brighton",
         'lat' => 50.82838,
@@ -1099,6 +1275,14 @@ $a = [
         'population' => 0,
         'geoname' => 4034582,
     ],
+    1678 => [
+        'name' => "Tatrad",
+        'lat' => 49.16846,
+        'lon' => 20.14275,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 11102654,
+    ],
     1715 => [
         'name' => "Valencia",
         'lat' => 39.46975,
@@ -1114,6 +1298,14 @@ $a = [
         'capital' => false,
         'population' => 568305,
         'geoname' => 2514256,
+    ],
+    1743 => [
+        'name' => "Kataloonia",
+        'lat' => 41.82046,
+        'lon' => 1.86768,
+        'capital' => false,
+        'population' => 7475420,
+        'geoname' => 3336901,
     ],
     1751 => [
         'name' => "Birmingham",
@@ -1203,6 +1395,14 @@ $a = [
         'population' => 2797553,
         'geoname' => 703448,
     ],
+    2095 => [
+        'name' => "Düsseldorf",
+        'lat' => 51.22492,
+        'lon' => 6.77425,
+        'capital' => false,
+        'population' => 603210,
+        'geoname' => 6553022,
+    ],
     2101 => [
         'name' => "Koh Samui",
         'lat' => 9.54675,
@@ -1290,6 +1490,14 @@ $a = [
         'capital' => false,
         'population' => 652136,
         'geoname' => 3533462,
+    ],
+    2511 => [
+        'name' => "Kilimandžaaro",
+        'lat' => -3.07583,
+        'lon' => 37.35333,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 157452,
     ],
     2594 => [
         'name' => "Normandia",
@@ -1427,6 +1635,14 @@ $a = [
         'population' => 2400000,
         'geoname' => 3399415,
     ],
+    3130 => [
+        'name' => "Kuldsed liivad",
+        'lat' => 43.285,
+        'lon' => 28.0418,
+        'capital' => false,
+        'population' => 9760,
+        'geoname' => 6355004,
+    ],
     3222 => [
         'name' => "Playa del Carmen",
         'lat' => 20.6274,
@@ -1490,6 +1706,14 @@ $a = [
         'capital' => true,
         'population' => 12294193,
         'geoname' => 3530597,
+    ],
+    3729 => [
+        'name' => "Patagoonia",
+        'lat' => -44,
+        'lon' => -68,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 3841798,
     ],
     3754 => [
         'name' => "Bordeaux",
@@ -1627,6 +1851,14 @@ $a = [
         'population' => 146821,
         'geoname' => 3038354,
     ],
+    4344 => [
+        'name' => "Päikeserannik",
+        'lat' => 36.67613,
+        'lon' => -4.42474,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 2510850,
+    ],
     4345 => [
         'name' => "Krk",
         'lat' => 45.07528,
@@ -1651,6 +1883,22 @@ $a = [
         'population' => 308308,
         'geoname' => 2155472,
     ],
+    4348 => [
+        'name' => "Zürich",
+        'lat' => 47.41667,
+        'lon' => 8.66667,
+        'capital' => false,
+        'population' => 1289559,
+        'geoname' => 2657895,
+    ],
+    4349 => [
+        'name' => "Markiisisaared",
+        'lat' => -9.31899,
+        'lon' => -139.61426,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 4019977,
+    ],
     4350 => [
         'name' => "Tuamotu",
         'lat' => -19,
@@ -1674,6 +1922,14 @@ $a = [
         'capital' => false,
         'population' => 2374658,
         'geoname' => 1625822,
+    ],
+    4354 => [
+        'name' => "Kapadookia",
+        'lat' => 38.73199,
+        'lon' => 35.47863,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 8378488,
     ],
     4355 => [
         'name' => "Mombasa",
@@ -1754,6 +2010,14 @@ $a = [
         'capital' => false,
         'population' => 0,
         'geoname' => 3866949,
+    ],
+    4365 => [
+        'name' => "Angeli juga",
+        'lat' => 5.96754,
+        'lon' => -62.53554,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 9957305,
     ],
     4366 => [
         'name' => "Wellington",
@@ -1915,6 +2179,14 @@ $a = [
         'population' => 755050,
         'geoname' => 3094802,
     ],
+    4621 => [
+        'name' => "Göteborg",
+        'lat' => 57.70716,
+        'lon' => 11.96679,
+        'capital' => false,
+        'population' => 504084,
+        'geoname' => 2711537,
+    ],
     4622 => [
         'name' => "Belgrad",
         'lat' => 44.80401,
@@ -2051,6 +2323,14 @@ $a = [
         'population' => 0,
         'geoname' => 8051259,
     ],
+    4640 => [
+        'name' => "Gili saared",
+        'lat' => -8.89868,
+        'lon' => 116.56083,
+        'capital' => false,
+        'population' => 0,
+        'geoname' => 1631161,
+    ],
     4641 => [
         'name' => "Okinawa",
         'lat' => 26.5,
@@ -2098,6 +2378,14 @@ $a = [
         'capital' => true,
         'population' => 345604,
         'geoname' => 1526273,
+    ],
+    4647 => [
+        'name' => "Biškek",
+        'lat' => 42.86667,
+        'lon' => 74.6,
+        'capital' => false,
+        'population' => 896259,
+        'geoname' => 1528334,
     ],
     4648 => [
         'name' => "Vientiane",
@@ -2218,6 +2506,14 @@ $a = [
         'capital' => false,
         'population' => 25775,
         'geoname' => 1232783,
+    ],
+    4664 => [
+        'name' => "Dušanbe",
+        'lat' => 38.53575,
+        'lon' => 68.77905,
+        'capital' => true,
+        'population' => 679400,
+        'geoname' => 1221874,
     ],
     4665 => [
         'name' => "Chiang Mai",
@@ -2619,7 +2915,14 @@ $a = [
         'population' => 2776168,
         'geoname' => 2240449,
     ],
+    4719 => [
+        'name' => "Alžiir",
+        'lat' => 36.7525,
+        'lon' => 3.04197,
+        'capital' => true,
+        'population' => 1977663,
+        'geoname' => 2507480,
+    ],
 
 ];
 
-print_r($a[4713]);

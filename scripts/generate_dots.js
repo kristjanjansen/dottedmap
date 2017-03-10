@@ -1,10 +1,16 @@
 var turf = require('@turf/turf')
 var countries = require('./countries.json')
 var codes = require('./codes.json')
+var destinations = require('./destinations_data.json')
 
 function iso3to2(iso3) {
     var code = codes.find(code => code['ISO3166-1-Alpha-3'] === iso3)
     return code ? code['ISO3166-1-Alpha-2'] : iso3
+}
+
+function iso3toId(iso3) {
+    var destination = destinations.find(destination => destination.code === iso3to2(iso3))
+    return destination ? destination.id : 0;
 }
 
 var lat = 0
@@ -31,6 +37,7 @@ for (var lat = 80; lat > -80; lat -= step) {
         circle.properties.countries = []
 
         countries.features
+            //.slice(0, 3)
             .filter(country => country.properties.name !== 'Antarctica')
             .forEach(country => {
             
@@ -40,7 +47,7 @@ for (var lat = 80; lat > -80; lat -= step) {
                     turf.polygon(country.geometry.coordinates)
                 )
                 if (intersection !== undefined) {
-                    circle.properties.countries.push(iso3to2(country.id))
+                    circle.properties.countries.push(iso3toId(country.id))
                 }
             }
             if (country.geometry.type === 'MultiPolygon') {
@@ -50,7 +57,7 @@ for (var lat = 80; lat > -80; lat -= step) {
                         turf.polygon(polygon)
                     )
                     if (intersection !== undefined) {
-                        circle.properties.countries.push(iso3to2(country.id))
+                        circle.properties.countries.push(iso3toId(country.id))
                     }
                 })
             }

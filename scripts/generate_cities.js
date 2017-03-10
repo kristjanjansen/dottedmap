@@ -2,16 +2,17 @@ var request = require('request');
 var async = require('async');
 var _ = require('lodash');
 
+var destinations = require('./destinations.json')
+
 var citiesData = []
 
-request({url: 'http://trip2.dev/api/destinations', json: true}, (err, res, body) => {
-    var continents = body
+    var continents = destinations
         .filter(continent => continent.parent_id == null)
 
-    var countries = body
+    var countries = destinations
         .filter(country => continents.find(continent => continent.id === country.parent_id))
     
-    var cities = body
+    var cities = destinations
         .filter(city => countries.find(country => country.id === city.parent_id))
     
     async.each(cities, (city, cb) => {
@@ -24,6 +25,7 @@ request({url: 'http://trip2.dev/api/destinations', json: true}, (err, res, body)
                     cityData.lat = data.lat,
                     cityData.lng = data.lng,
                     cityData.data = {
+                        id: city.id,
                         name: city.name,
                         capital: data.fcodeName === 'capital of a political entity',
                         geonameId: data.geonameId,
@@ -51,6 +53,3 @@ request({url: 'http://trip2.dev/api/destinations', json: true}, (err, res, body)
         }
         console.log(JSON.stringify(output, null, 4))
     })
-
-
-});

@@ -40,3 +40,13 @@ http://openflights.org/data.html
 ```
 curl https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat | csvcut -H | csvjson -i 4 > scripts/airports.json
 ```
+
+### Trip sources
+
+```
+curl http://trip.ee/api/destinations > scripts/destinations.json
+```
+
+```
+curl http://trip.ee/api/destinations/data > scripts/destinations_data.json
+```

@@ -42,7 +42,7 @@ var citiesData = []
         )
     }, () => {
     
-    console.log('\n<?php\n\nreturn [\n')
+    console.log('<?php\n\nreturn [\n')
         _.sortBy(citiesData, 'id')
         .forEach(city => {
     
@@ -61,18 +61,3 @@ var citiesData = []
         
     })
 
-/*
-
-<?php
-
-return [
-725 => [
-  'code' => 'AF',
-  'capital' => 'Kabul',
-  'area' => 652230,
-  'population' => '29121286',
-  'callingCode' => '93',
-  'currencyCode' => 'AFN',
-],
-
-*/
